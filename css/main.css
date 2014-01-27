@@ -98,8 +98,56 @@ textarea {
    ========================================================================== */
 
 
+/* ==========================================================================
+   $ Site Items
+   ========================================================================== */
+.body {
+    background: #FFF url("img/background-line.png") repeat-x;  
+}
+.container {
+    width: 940px; /* Padding has already been used */
+    margin: 0px auto;
+}
 
-
+/* ==========================================================================
+   $ Header Items
+   ========================================================================== */
+.header {
+    height: 380px;
+    position: relative;
+}
+.header .title {
+    position: absolute;
+    left: 30px;
+    top: 100px;
+    width: 330px;
+}
+.header .title a {
+    font-size: 40px;
+    color: #545454;
+    text-decoration: none;
+}
+.header .intro {
+    width: 570px;
+    height: 230px;
+    margin-top: 120px;
+}
+.header .intro img {
+    float: left;
+}
+.header .intro .intro-details {
+    width: 410px;
+    float: left;
+    display: inline;
+    margin-left: 10px;
+}
+.header .intro .intro-details .intro-sub-title {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.header .intro .intro-details .intro-text {
+    margin: 0px;
+}
 
 
 
