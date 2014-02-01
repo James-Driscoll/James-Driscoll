@@ -114,42 +114,60 @@ textarea {
    ========================================================================== */
 .header {
     height: 380px;
-    position: relative;
+    margin-top: 100px;
+    color: #545454;
 }
 .header .title {
-    position: absolute;
-    left: 30px;
-    top: 100px;
     width: 330px;
 }
-.header .title a {
-    font-size: 40px;
+.header a {
+    font-size: 20px;
     color: #545454;
     text-decoration: none;
 }
 .header .intro {
+    float: left;
     width: 570px;
-    height: 230px;
-    margin-top: 120px;
+    margin-top: 20px;
+    border-right: 1px solid #CACAD9;
 }
 .header .intro img {
     float: left;
 }
 .header .intro .intro-details {
     width: 410px;
-    float: left;
+    float: right;
     display: inline;
+    text-align: left;
     margin-left: 10px;
 }
 .header .intro .intro-details .intro-sub-title {
     margin-top: 0px;
     margin-bottom: 20px;
+    font-size: 18px;
 }
 .header .intro .intro-details .intro-text {
     margin: 0px;
+    font-size: 14px;
 }
-
-
+.header .contact {
+    float: right;
+    width: 360px;
+}
+.header .contact ul {
+    list-style: none;
+}
+.header .contact ul li {
+    padding: 20px;
+}
+.header .contact a {
+    color: #669D2C;
+    font-size: 12px;
+    text-decoration: none;
+}
+.header .contact a:hover {
+    text-decoration: underline;
+}
 
 
 
