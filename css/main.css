@@ -187,36 +187,77 @@ textarea {
 /* ==========================================================================
    Content Items
    ========================================================================== */
+/* --Sub Container Items----------------------------------------------------- */
 .content {
     clear: both;
     height: 800px;
     font-family: "Lato" "Trebuchet MS";
 }
-.sub-container {
-    height: 100px;
-    width: 470px;
-}
-.sub-container .section-title {
+.sub-container-half {
+    width: 430px;
+    font-family: "Lato" "Trebuchet MS";
     color: #646472;
-    background: url("img/sub-container.png") no-repeat 81% 57%;
 }
-.content .skills {
+.sub-container-half .section-title-half {
+    width: 430px;
+    height: 50px;
+    position: relative;
+}
+.sub-container-half .section-title-half h2 {
+    color: #646472;
+    display: inline;
+}
+.title-bar {
+    display: inline;
+    position: absolute;
+    top: 15px;
+    height: 5px;
+    border-top: 1px solid #CACAD9;
+    border-bottom: 1px solid #CACAD9;
+}
+.sub-container-half .period {
+    float: right;
+    width: 208px;
+    height: 38px;
+    background-color: #DBDEE3;
+    color: #646472;
+    font-family: "Lato" "Trebuchet MS";
+    font-size: 14px;  
+    text-align: center;
+    line-height: 37px;  
+}
+.sub-container-full {
+    width: 935px;
+    clear: both;
+    padding-top: 30px; 
+    font-family: "Lato" "Trebuchet MS";
+    color: #646472;
+}
+.sub-container-full .section-title-full {
+    width: 935px;
+    height: 50px;
+    position: relative;
+}
+/* --Skills Items------------------------------------------------------------ */
+.skills {
     float: left;
 }
-.content .education {
-    float: right;
+.skills .title-skills {
+    width: 346px;
+    left: 84px;
 }
-.content .skills .skill-list {
+.skills .skill-list {
     height: 500px;
     list-style: none;
+    padding-left: 0px;
 }
-.content .skills .skill-list .whole-bar {
+.skills .skill-list .whole-bar {
     height: 37px;
-    width: 410px;
+    width: 430px;
     background-color: #DBDEE3;
     margin-bottom: 37px;
 }
-.content .skills .skill-list .bar {
+.skills .skill-list .bar {
     height: 37px;
     float: left;
     font-family: "Lato" "Trebuchet MS" "Arial";
@@ -227,46 +268,94 @@ textarea {
     line-height: 38px;
     padding-left: 10px;
 }
-.content .skills .skill-list .grey {
+.skills .skill-list .grey {
     background-color: #637076;
     height: 37px;
     width: 324px;
 }
-.content .skill-list .green {
+.skill-list .green {
     background-color: #669D2C;
     height: 37px;
     width: 324px;
 }
-.content .skills .skill-list .skill-pm {
-    width: 150px;
-}
-.content .skills .skill-list .skill-html {
-    width: 358px;
-}
-.content .skills .skill-list .skill-css {
+.skills .skill-list .skill-pm {
     width: 350px;
 }
-.content .skills .skill-list .skill-require {
+.skills .skill-list .skill-html {
+    width: 338px;
+}
+.skills .skill-list .skill-css {
+    width: 330px;
+}
+.skills .skill-list .skill-require {
     width: 250px;
 }
-.content .skills .skill-list .skill-sql {
+.skills .skill-list .skill-sql {
     width: 200px;
 }
-.content .skills .skill-list .skill-php {
+.skills .skill-list .skill-php {
     width: 180px;
 }
-.content .skills .skill-list .skill-net {
+.skills .skill-list .skill-net {
     width: 280px;
 }
-.content .skills .skill-list .skill-email {
+.skills .skill-list .skill-email {
     width: 380px;
 }
-.content .skills .skill-list .skill-oo {
+.skills .skill-list .skill-oo {
     width: 300px;
 }
-.content .skills .skill-list .skill-office {
+.skills .skill-list .skill-office {
     width: 350px;
 }
+
+/* --Education Items--------------------------------------------------------- */
+.education {
+    float: right;
+}
+.education .title-education {
+    width: 288px;
+    left: 142px;
+}
+.education .edu-logo {
+    float: left;
+}
+.education .level {
+    display: block;
+    clear: both;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.education .course {
+    clear: both;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 0px;  
+    margin-bottom: 8px;  
+}
+.education .course span {
+    font-size: 18px;
+}
+.education .modules {
+    list-style: none;
+    font-size: 15px;
+    margin-top: 0px;
+    padding-left: 20px;
+}
+.education .sixth {
+    margin-top: 35px;
+}
+.education .secondary {
+    margin-top: 35px;
+}
+
+/* --Work Experience Items--------------------------------------------------- */
+.work .title-work {
+    width: 710px;
+    left: 225px;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
