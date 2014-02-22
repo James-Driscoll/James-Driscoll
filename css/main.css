@@ -327,6 +327,9 @@ textarea {
 .education .edu-logo {
     float: left;
 }
+.education .edu-logo:hover {
+    opacity: 0.8;
+}
 .education .level {
     display: block;
     clear: both;
