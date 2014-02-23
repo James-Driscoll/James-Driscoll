@@ -102,7 +102,7 @@ textarea {
    $ Site Items
    ========================================================================== */
 .body {
-    background: #FFF url("img/background-line2.png") repeat-x;  
+    background: #FFF url("img/background-line-header.png") repeat-x;  
 }
 .container {
     width: 940px; /* Padding has already been used */
@@ -177,11 +177,49 @@ textarea {
     text-decoration: none;
 }
 .header .contact .email {
-    background: url("img/icon-email.png") no-repeat 100% 13%;
+    background: url("img/icon-email.png") no-repeat 100% 0%;
+}
+.header .contact .linked {
+    background: url("img/icon-linked.png") no-repeat 100% 0%;
+}
+.header .contact .web {
+    background: url("img/icon-web.png") no-repeat 100% 0%;
 }
 .header .contact a:hover {
     text-decoration: underline;
     color: #328127;
+}
+
+@media (max-width: 480px){
+.body {
+    background: #FFF url("img/background-line-header-2.png") repeat-x;  
+}
+.container {
+    width: 480px; /* Padding has already been used */
+}
+.sub-container-full {
+    width: 480px;
+}
+.section-title-full {
+    width: 480px;
+}
+.header .intro {
+    border: none;
+}
+.header .contact {
+    float: left;
+    clear: both;
+}
+.header .contact ul li {
+    padding-bottom: 5px;
+}
+#education {
+    float: left;
+    margin-top: 40px;
+}
+#work {
+    width: 480px;
+}
 }
 
 /* ==========================================================================
@@ -212,14 +250,14 @@ textarea {
 
 /* --Sub Container Full Items----------------------------------------------- */
 .sub-container-full {
-    width: 935px;
+    width: 98%;
     clear: both;
     padding-top: 30px; 
     font-family: "Lato" "Trebuchet MS";
     color: #646472;
 }
 .sub-container-full .section-title-full {
-    width: 935px;
+    width: 98%;
     height: 70px;
     position: relative;
 }
@@ -419,6 +457,21 @@ textarea {
     width: 244px;
     left: 186px;
 }
+.achievements .bullet-points .cisco {
+    background: url("img/icon-cisco.png") no-repeat 90% 50%;
+}
+.achievements .bullet-points .office {
+    background: url("img/icon-office.png") no-repeat 87% 50%;
+}
+.achievements .bullet-points .dofe {
+    background: url("img/icon-dofe.png") no-repeat 88% 50%;
+}
+.achievements .bullet-points .guitar {
+    background: url("img/icon-guitar.png") no-repeat 87% 50%;
+}
+.achievements .bullet-points .drive {
+    background: url("img/icon-drive.png") no-repeat 87% 50%;
+}
 
 /* --Interests Items--------------------------------------------------------- */
 .interests {
@@ -428,6 +481,15 @@ textarea {
 .interests .title-interests {
     width: 302px;
     left: 128px;
+}
+.interests .bullet-points .squash {
+    background: url("img/icon-squash.png") no-repeat 90% 50%;
+}
+.interests .bullet-points .gym {
+    background: url("img/icon-gym.png") no-repeat 90% 50%;
+}
+.interests .bullet-points .tech {
+    background: url("img/icon-tech.png") no-repeat 90% 50%;
 }
 
 /* ==========================================================================

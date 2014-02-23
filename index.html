@@ -37,7 +37,7 @@
             <div class="contact">
                 <ul>
                     <li class="email"><a href="mailto:enquiries@james-driscoll.co.uk" target="_blank">enquiries@james-driscoll.co.uk</a></li>
-                    <li class="linkedin"><a href="http://uk.linkedin.com/pub/james-driscoll/5a/19/40b/" target="_blank">My LinkedIn</a></li>
+                    <li class="linked"><a href="http://uk.linkedin.com/pub/james-driscoll/5a/19/40b/" target="_blank">My LinkedIn</a></li>
                     <li class="web"><a href="http://www.jamesdriscollwebdevelopment.co.uk" target="_blank">jamesdriscollwebdevelopment.co.uk</a></li>
                 </ul>
             </div>
@@ -69,7 +69,7 @@
             <!-- Skills sub-section ends here -->
 
             <!-- Education sub-section begins here -->
-            <div class="sub-container-half education">
+            <div class="sub-container-half education" id="education">
                 <div class="section-title-half">
                     <h2>Education</h2>
                     <div class="title-bar title-education"></div>
@@ -136,7 +136,7 @@
             <!-- Education sub-section ends here -->
 
             <!-- Work Experience sub-section begins here -->
-            <div class="sub-container-full work">
+            <div class="sub-container-full work" id="work">
                 <div class="section-title-full">
                     <h2>Work Experience</h2>
                     <div class="title-bar title-work"></div>
@@ -149,7 +149,7 @@
                             <h3 class="role box">Project Management Assistant</h3>
                             <div class="date box">JUL 2013 - PRESENT</div>
                         </div>
-                        <p class="desc">I am working for Terdata Applications as a Project Management Assistant. I am working as placement student as part of a 12 month internship. The placement has taight me vital project managent skills including project scoping, client interation and resource management.</p>
+                        <p class="desc">I am working for Terdata Applications as a Project Management Assistant. I am working as placement student as part of a 12 month internship. The placement has taught me vital project managent skills including project scoping, client interation and resource management.</p>
                     </div>
                     <div class="company">
                         <a class="work-logo" href="http://www.northamptongeneral.nhs.uk/" target="_blank">
@@ -171,10 +171,10 @@
                     <div class="title-bar title-achievements"></div>
                     <ul class="bullet-points">
                         <li class="cisco">Cisco Accreditation</li>
-                        <li class="microsoft">Microsoft Certification</li>
+                        <li class="office">Microsoft Certification</li>
                         <li class="dofe">Duke of Edinburgh's Award</li>
                         <li class="guitar">Guitar</li>
-                        <li class="driving">4 years driving - no points</li>
+                        <li class="drive">4 years driving - no points</li>
                     </ul>
                 </div>
             </div>
@@ -188,7 +188,7 @@
                     <ul class="bullet-points">
                         <li class="squash">Squash</li>
                         <li class="gym">Regular member of gym</li>
-                        <li class="technology">Technology</li>
+                        <li class="tech">Technology</li>
                     </ul>
                 </div>
             </div>
@@ -208,12 +208,15 @@
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-48355532-1', 'james-driscoll.co.uk');
+            ga('send', 'pageview');
         </script>
+
+
     </body>
 </html>
