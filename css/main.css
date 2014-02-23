@@ -189,8 +189,8 @@ textarea {
    ========================================================================== */
 .content {
     clear: both;
-    height: 800px;
     font-family: "Lato" "Trebuchet MS";
+    height: 1700px;
 }
 
 /* --Sub Container Half Items------------------------------------------------ */
@@ -208,17 +208,7 @@ textarea {
     color: #646472;
     display: inline;
 }
-.sub-container-half .period {
-    float: right;
-    width: 208px;
-    height: 38px;
-    background-color: #DBDEE3;
-    color: #646472;
-    font-family: "Lato" "Trebuchet MS";
-    font-size: 14px;  
-    text-align: center;
-    line-height: 37px;  
-}
+
 
 /* --Sub Container Full Items----------------------------------------------- */
 .sub-container-full {
@@ -232,6 +222,24 @@ textarea {
     width: 935px;
     height: 70px;
     position: relative;
+}
+
+/* --Box Items--------------------------------------------------------------- */
+.box {
+    width: 210px;
+    height: 38px;
+    background-color: #DBDEE3;
+    color: #646472;
+    font-family: "Lato" "Trebuchet MS";
+    font-size: 14px;  
+    text-align: center;
+    line-height: 37px;  
+}
+
+/* --Bullet Points Items---------------------------------------------------- */
+.bullet-points li {
+    padding: 15px;
+    margin-left: 20px;
 }
 
 /* --Title Bar Items-------------------------------------------------------- */
@@ -358,13 +366,78 @@ textarea {
 .education .secondary {
     margin-top: 35px;
 }
+.education .date {
+    float: right;
+}
 
 /* --Work Experience Items--------------------------------------------------- */
 .work .title-work {
     width: 710px;
     left: 225px;
 }
+.work .teradata {
+    clear: both;
+    height: 180px;
+    margin-bottom: 100px;
+}
+.work .work-logo {
+    float: left;
+}
+.work .work-logo:hover {
+    opacity: 0.8;
+}
+.work .title-date {
+    float: right;
+    width: 570px;
+}
+.work .title-date .role {
+    float: left;
+    background-color: #669D2C;
+    color: #FFF;
+    font-family: "Lato" "Trebuchet MS";
+    font-size: 14px;  
+    text-align: center;
+    line-height: 37px; 
+    margin: 0px;
+    font-weight: normal;
+}    
+.work .title-date .date {
+    float: right;
+}
+.work .desc {
+    clear: both;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
+/* --Achievements Items------------------------------------------------------ */
+.achievements {
+    float: left;
+    padding-top: 30px;
+}
+.achievements .title-achievements {
+    width: 244px;
+    left: 186px;
+}
+
+/* --Interests Items--------------------------------------------------------- */
+.interests {
+    float: right;
+    padding-top: 30px;
+}
+.interests .title-interests {
+    width: 302px;
+    left: 128px;
+}
+
+/* ==========================================================================
+   Footer Items
+   ========================================================================== */
+.footer {
+    clear: both;
+    height: 110px;
+    background: #FFF url("img/background-line-footer.png") repeat-x;  
+}
 
 /* ==========================================================================
    Helper classes
