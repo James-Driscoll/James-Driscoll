@@ -228,7 +228,7 @@ textarea {
 .content {
     clear: both;
     font-family: "Lato" "Trebuchet MS";
-    height: 1700px;
+    height: 2100px;
 }
 
 /* --Sub Container Half Items------------------------------------------------ */
@@ -442,10 +442,10 @@ textarea {
 .work .title-date .date {
     float: right;
 }
-.work .desc {
+.work .description {
     clear: both;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
 
 /* --Achievements Items------------------------------------------------------ */
@@ -456,6 +456,9 @@ textarea {
 .achievements .title-achievements {
     width: 244px;
     left: 186px;
+}
+.achievements .bullet-points li {
+    list-style: none;
 }
 .achievements .bullet-points .cisco {
     background: url("img/icon-cisco.png") no-repeat 90% 50%;
@@ -482,6 +485,9 @@ textarea {
     width: 302px;
     left: 128px;
 }
+.interests .bullet-points li {
+    list-style: none;
+}
 .interests .bullet-points .squash {
     background: url("img/icon-squash.png") no-repeat 90% 50%;
 }
@@ -498,7 +504,23 @@ textarea {
 .footer {
     clear: both;
     height: 110px;
-    background: #FFF url("img/background-line-footer.png") repeat-x;  
+    background: #FFF url("img/background-line-footer.png") repeat-x;
+    position: relative;
+}
+.footer a {
+    color: #669D2C;
+    font-size: 14px;
+    text-decoration: none;
+}
+.footer .email {
+    position: absolute;
+    top: 40px;
+}
+.footer a:hover {
+    text-decoration: underline;
+    color: #328127;
+}
+
 }
 
 /* ==========================================================================
