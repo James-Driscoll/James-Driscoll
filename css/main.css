@@ -166,7 +166,6 @@ textarea {
 .content {
     clear: both;
     font-family: "Lato" "Trebuchet MS";
-    height: 2100px;
 }
 
 /* ==========================================================================
@@ -196,6 +195,7 @@ textarea {
 .header .intro img {
     float: left;
     margin-top: 5px;
+    border-radius: 11px;
 }
 .header .intro .intro-details {
     float: left;
@@ -500,13 +500,13 @@ textarea {
     background: url("img/icon-drive.png") no-repeat 87% 50%;
 }
 .bullet-points .squash {
-    background: url("img/icon-squash.png") no-repeat 90% 50%;
+    background: url("img/icon-squash.png") no-repeat 87% 50%;
 }
 .bullet-points .gym {
-    background: url("img/icon-gym.png") no-repeat 90% 50%;
+    background: url("img/icon-gym.png") no-repeat 87% 50%;
 }
 .bullet-points .tech {
-    background: url("img/icon-tech.png") no-repeat 90% 50%;
+    background: url("img/icon-tech.png") no-repeat 87% 50%;
 }
 .interests {
     float: right;
