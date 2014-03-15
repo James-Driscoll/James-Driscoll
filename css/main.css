@@ -159,6 +159,7 @@ textarea {
 @media (max-width: 500px){
     .sub-container-half {
         width: 100%;
+        margin-top: 30px;
     }
 }
 
@@ -185,22 +186,25 @@ textarea {
     color: #545454;
     text-decoration: none;
 }
+.header .title:hover {
+    opacity: 0.8;
+}
 
 /* --Intro Items------------------------------------------------------------- */
 .header .intro {
     float: left;
-    width: 570px;
     border-right: 1px solid #CACAD9;
+    padding-right: 65px;
+    width: 500px;
 }
 .header .intro img {
     float: left;
     margin-top: 5px;
     border-radius: 11px;
+    margin-right: 20px;
 }
 .header .intro .intro-details {
-    float: left;
     display: inline;
-    margin-left: 20px;
 }
 .header .intro .intro-details .intro-sub-title {
     margin-bottom: 20px;
@@ -208,7 +212,7 @@ textarea {
     color: #777;
 }
 .header .intro .intro-details .intro-text {
-    width: 340px;
+    display: block;
     font-size: 14px;
     margin-top: 12px;
 }
@@ -221,6 +225,20 @@ textarea {
 @media (max-width: 500px){
     .header .intro {
         border: none;
+        width: auto;
+        padding-right: 0px;
+    }
+    .header .intro img {
+        margin-right: 15px;
+    }
+    .header .intro .intro-details {
+        display: inline;
+        margin-left: 0px;
+    }
+    .header .intro .intro-details .intro-text {
+        width: auto;
+        display: block;
+        padding-left: 10px;
     }
 }
 
@@ -391,7 +409,7 @@ textarea {
 .education .level {
     display: block;
     clear: both;
-    font-size: 14px;
+    font-size: 15px;
     padding-top: 10px;
 }
 .education .course {
