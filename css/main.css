@@ -104,21 +104,11 @@ textarea {
 .body {
     background: #FFF url("img/background-line-header.png") repeat-x;  
 }
-@media (max-width: 500px){
-    .body {
-        background: #FFF url("img/background-line-header-2.png") repeat-x;  
-    }
-}
 
 /* --Container Items-------------------------------------------------------- */
 .container {
     width: 940px; /* Padding has already been used */
     margin: 0px auto;
-}
-@media (max-width: 500px){
-    .container {
-        width: 480px;
-    }
 }
 
 /* --Sub Container Full Items----------------------------------------------- */
@@ -131,14 +121,6 @@ textarea {
 .sub-container-full .section-title-full {
     height: 70px;
     position: relative;
-}
-@media (max-width: 500px){
-    .sub-container-full {
-        width: 480px;
-    }
-    .section-title-full {
-        width: 480px;
-    }
 }
 
 /* --Sub Container Half Items------------------------------------------------ */
@@ -155,12 +137,6 @@ textarea {
 .sub-container-half .section-title-half h2 {
     color: #646472;
     display: inline;
-}
-@media (max-width: 500px){
-    .sub-container-half {
-        width: 100%;
-        margin-top: 30px;
-    }
 }
 
 /* --Content Items---------------------------------------------------------- */
@@ -222,25 +198,6 @@ textarea {
     font-size: 19px;
     font-family: "Shadows Into Light Two", Georgia;
 }
-@media (max-width: 500px){
-    .header .intro {
-        border: none;
-        width: auto;
-        padding-right: 0px;
-    }
-    .header .intro img {
-        margin-right: 15px;
-    }
-    .header .intro .intro-details {
-        display: inline;
-        margin-left: 0px;
-    }
-    .header .intro .intro-details .intro-text {
-        width: auto;
-        display: block;
-        padding-left: 10px;
-    }
-}
 
 /* --Contact Items---------------------------------------------------------- */
 .header .contact {
@@ -271,14 +228,6 @@ textarea {
 .header .contact a:hover {
     text-decoration: underline;
     color: #328127;
-}
-@media (max-width: 500px){
-    .header .contact {
-        float: left;
-    }
-    .header .contact ul li {
-        margin-bottom: 5px;
-    }
 }
 
 /* ==========================================================================
@@ -382,15 +331,6 @@ textarea {
 .skills .skill-list .skill-office {
     width: 350px;
 }
-@media (max-width: 500px){
-    .skills .skill-list {
-        width: 100%;
-    }
-    .skills .skill-list .whole-bar {
-        margin-bottom: 5px;
-    }
-}
-
 
 /* --Education Items--------------------------------------------------------- */
 .education {
@@ -475,21 +415,6 @@ textarea {
     clear: both;
     padding-top: 10px;
 }
-@media (max-width: 500px){
-    .work .title-work {
-        width: 53%;
-    }
-    .work .role-date {
-        width: 100%;
-        margin-top: 30px;
-    }
-    .work .role-date .role {
-        float: left;
-    }
-    .work .role-date .date {
-        float: right;
-    }
-}
 
 /* --Achievements & Interests Items------------------------------------------ */
 .achievements {
@@ -533,27 +458,6 @@ textarea {
     width: 302px;
     left: 128px;
 }
-@media (max-width: 500px){
-    .achievements {
-        float: left;
-    }
-    .interests {
-        float: left;
-        clear: both;
-    }
-    .bullet-points {
-        padding: 0px;
-    }
-    .bullet-points li {
-        padding: 10px;
-    }
-    .interests .section-title-half {
-        height: 20px;
-    }
-    .achievements .section-title-half {
-        height: 20px;
-    }
-}
 
 /* ==========================================================================
    Footer Items
@@ -578,6 +482,103 @@ textarea {
     color: #328127;
 }
 
+/* ==========================================================================
+   Responsive Styling (breakpoint: 500px)
+   ========================================================================== */
+@media (max-width: 500px){
+    .body {
+        background: #FFF url("img/background-line-header-2.png") repeat-x;  
+    }
+
+/* --Container Items---------------------------- */
+    .container {
+        width: 100%;
+    }
+
+/* --Sub Container Full Items------------------- */
+    .sub-container-full {
+        width: 100%;
+    }
+    .section-title-full {
+        width: 100%;
+    }
+
+/* --Sub Container Half Items------------------- */
+    .sub-container-half {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+/* --Intro Items-------------------------------- */
+    .header .intro {
+        border: none;
+        width: 100%;
+        padding-right: 0px;
+    }
+    .header .intro img {
+        margin-right: 15px;
+    }
+    .header .intro .intro-details {
+        display: inline;
+        margin-left: 0px;
+    }
+    .header .intro .intro-details .intro-text {
+        width: 100%;
+        display: block;
+        padding-left: 10px;
+    }
+
+/* --Contact Items----------------------------- */
+    .header .contact {
+        float: left;
+    }
+    .header .contact ul li {
+        margin-bottom: 5px;
+    }
+
+/* --Skills Items------------------------------ */
+    .skills .skill-list {
+        width: 100%;
+    }
+    .skills .skill-list .whole-bar {
+        margin-bottom: 5px;
+    }
+
+/* --Work Experience Items-------------------- */
+    .work .title-work {
+        width: 53%;
+    }
+    .work .role-date {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .work .role-date .role {
+        float: left;
+    }
+    .work .role-date .date {
+        float: right;
+    }
+
+/* --Achievements & Interests Items----------- */
+    .achievements {
+        float: left;
+    }
+    .interests {
+        float: left;
+        clear: both;
+    }
+    .bullet-points {
+        padding: 0px;
+    }
+    .bullet-points li {
+        padding: 10px;
+    }
+    .interests .section-title-half {
+        height: 20px;
+    }
+    .achievements .section-title-half {
+        height: 20px;
+    }
 }
 
 /* ==========================================================================
