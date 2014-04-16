@@ -16,7 +16,7 @@ The purpose of this single page site is to have the abilty to direct colleagues 
 * StackOverflow: [http://stackoverflow.com](http://stackoverflow.com)
 * Google Analytics: [http://www.google.com/analytics](http://www.google.com/analytics)
 
-## Improvements
+## Improvements & Next Steps
 * The next stage in the development of this project would be to migrate this single page site into a custom theme of a content management system, for example; Wordpress or Drupal. This would then allow me to create a dynamic navigation menu with managed pages. The benefits of this development would be to seemlessly add/remove/modify the content.
 
 * To split the different sections into differnet pages, with a navigation menu to direct users through the pages. This would increase my ability to track each specific section, ultimiately giving me greater visibility of the most read sections.
