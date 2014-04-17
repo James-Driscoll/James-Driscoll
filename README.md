@@ -5,6 +5,8 @@ james-driscoll.co.uk is a single page site to professionally describe my qualifi
 ## Use Case
 The purpose of this single page site is to have the abilty to direct colleagues or potential employers to a digital CV that will clearly outline my skills, experience and strengths. The site is deliberately designed with all content on a single page as it simulates a classic document style CV.
 
+The site also has a responsive view styled using a CSS media query.
+
 ## Access
 * Source Code: [https://github.com/James-Driscoll/James-Driscoll.git](https://github.com/James-Driscoll/James-Driscoll.git)
 * Homepage: [james-driscoll.co.uk](http://james-driscoll.co.uk)
