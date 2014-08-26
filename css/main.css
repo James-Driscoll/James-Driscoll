@@ -1,10 +1,8 @@
-/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/
 
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
+Author:     James Driscoll
+Author URI: http://www.james-driscoll.co.uk
+Version:    2.1
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -101,8 +99,8 @@ textarea {
 /* ==========================================================================
    $ Site Items
    ========================================================================== */
-.body {
-    background: #FFF url("img/background-line-header.png") repeat-x; 
+body {
+    background: #FFF url("img/background-line-header.png") repeat-x;  
 }
 
 /* --Container Items-------------------------------------------------------- */
@@ -302,34 +300,34 @@ textarea {
     width: 324px;
 }
 .skills .skill-list .skill-pm {
-    width: 350px;
+    width: 70%
 }
 .skills .skill-list .skill-html {
-    width: 338px;
+    width: 60%;
 }
 .skills .skill-list .skill-css {
-    width: 330px;
+    width: 55%;
 }
 .skills .skill-list .skill-require {
-    width: 250px;
+    width: 65%;
 }
 .skills .skill-list .skill-sql {
-    width: 200px;
+    width: 50%;
 }
 .skills .skill-list .skill-php {
-    width: 180px;
+    width: 35%;
 }
 .skills .skill-list .skill-net {
-    width: 280px;
+    width: 50%;
 }
 .skills .skill-list .skill-email {
-    width: 380px;
+    width: 60%;
 }
 .skills .skill-list .skill-oo {
-    width: 300px;
+    width: 55%;
 }
 .skills .skill-list .skill-office {
-    width: 350px;
+    width: 65%;
 }
 
 /* --Education Items--------------------------------------------------------- */
@@ -472,6 +470,7 @@ textarea {
     color: #669D2C;
     font-size: 14px;
     text-decoration: none;
+    font-family: "Lato", "Trebuchet MS";
 }
 .footer .email {
     position: absolute;
@@ -543,6 +542,13 @@ textarea {
     .skills .skill-list .whole-bar {
         margin-bottom: 5px;
     }
+    .skills .section-title-half {
+        width: 100%;
+    }
+    .skills .title-skills{
+        width: 100%;
+    }
+
 
 /* --Work Experience Items-------------------- */
     .work .title-work {
