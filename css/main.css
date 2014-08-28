@@ -1,10 +1,22 @@
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/
 
-Author:     James Driscoll
-Author URI: http://www.james-driscoll.co.uk
-Version:    2.1
+   --Author Details--
+   ==============================================
+*  Author:     James Driscoll
+*  Author URI: http://www.james-driscoll.co.uk
+*  Version:    3.0
+   ==============================================
 
-/* ==========================================================================
+   --Colours--
+   ==============================================
+*  Background: #FFF;
+*  Header Background: #F5F5F5;
+*  Green: #669D2C;
+*  Light Grey: #DBDEE3;
+*  Dark Grey: #637076;
+   ==============================================
+
+   ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
 
@@ -105,7 +117,7 @@ body {
 
 /* --Container Items-------------------------------------------------------- */
 .container {
-    width: 940px; /* Padding has already been used */
+    width: 1200px; /* Padding has already been used */
     margin: 0px auto;
 }
 
@@ -159,9 +171,20 @@ body {
 .header a {
     color: #545454;
     text-decoration: none;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
 }
-.header .title:hover {
+.header .title a:hover {
     opacity: 0.8;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    color: #777;
 }
 
 /* --Intro Items------------------------------------------------------------- */
@@ -174,7 +197,7 @@ body {
 .header .intro img {
     float: left;
     margin-top: 5px;
-    border-radius: 11px;
+    border-radius: 100%;
     margin-right: 20px;
 }
 .header .intro .intro-details {
@@ -201,31 +224,58 @@ body {
 .header .contact {
     float: right;
 }
-.header .contact ul {
+.header .contact {
     list-style: none;
-    margin-top: 10px;
+    margin-top: 0px;
+    text-align: left;
+    width: 334px;
 }
-.header .contact ul li {
-    margin-bottom: 38px;
-    width: 310px;
+.header .contact li {
+    height: 65px;
+    width: 100%;
 }
 .header .contact a {
     color: #669D2C;
     font-size: 14px;
     text-decoration: none;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
 }
 .header .contact .email {
-    background: url("img/icon-email.png") no-repeat 100% 50%;
+    background: url("img/icon-email-static.svg") no-repeat 100% 50%;
+
+}
+.header .contact .email:hover {
+    background: url("img/icon-email-hover.svg") no-repeat 100% 50%;
+
 }
 .header .contact .linked {
-    background: url("img/icon-linked.png") no-repeat 100% 50%;
+    background: url("img/icon-linkedin-static.svg") no-repeat 100% 50%;
+
 }
-.header .contact .web {
-    background: url("img/icon-web.png") no-repeat 100% 50%;
+.header .contact .linked:hover {
+    background: url("img/icon-linkedin-hover.svg") no-repeat 100% 50%;
+
 }
-.header .contact a:hover {
+.header .contact .git {
+    background: url("img/icon-git-static.svg") no-repeat 100% 50%;
+
+}
+.header .contact .git:hover {
+    background: url("img/icon-git-hover.svg") no-repeat 100% 50%;
+
+}
+/*.header .contact a:hover {
     text-decoration: underline;
     color: #328127;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
 }
 
 /* ==========================================================================
