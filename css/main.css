@@ -311,6 +311,11 @@ body {
     width: 100%;
     background-color: #DBDEE3;
     margin-bottom: 37px;
+    transition: all .1s ease-in;
+    -moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    -ms-transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
 }
 .skills .skill-list .bar {
     height: 37px;
@@ -326,6 +331,11 @@ body {
 }
 .skills .skill-list .whole-bar:hover {
     opacity: 0.8;
+    transition: all .1s ease-in;
+    -moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    -ms-transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
 }
 .skills .skill-list .grey {
     background-color: #637076;
