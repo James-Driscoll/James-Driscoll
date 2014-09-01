@@ -153,7 +153,7 @@ body {
 /* --Content Items---------------------------------------------------------- */
 .content {
     clear: both;
-    font-family: "Lato" "Trebuchet MS";
+    font-family: "Lato", "Trebuchet MS";
 }
 
 /* ==========================================================================
@@ -163,7 +163,6 @@ body {
     height: 455px;
     color: #637076;
     font-family: "Lato", "Trebuchet MS";
-    margin-bottom: 500px;
 }
 .header .title {
     font-size: 50px;
@@ -291,22 +290,16 @@ body {
 }
 
 /* --Title Bar Items-------------------------------------------------------- */
-.title-bar {
-    display: inline;
-    position: absolute;
-    top: 15px;
-    height: 5px;
-    border-top: 1px solid #CACAD9;
-    border-bottom: 1px solid #CACAD9;
+.section-title {
+    font-size: 80px;
+    color: #646472;
+    font-weight: normal;
+    margin-bottom: 10px;
 }
 
 /* --Skills Items------------------------------------------------------------ */
 .skills {
-    float: left;=
-}
-.skills .title-skills {
-    width: 346px;
-    left: 84px;
+    width: 100%;
 }
 .skills .skill-list {
     list-style: none;
@@ -329,6 +322,10 @@ body {
     margin: 0px;
     line-height: 38px;
     padding-left: 10px;
+    text-transform: uppercase;
+}
+.skills .skill-list .whole-bar:hover {
+    opacity: 0.8;
 }
 .skills .skill-list .grey {
     background-color: #637076;
