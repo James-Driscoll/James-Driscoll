@@ -14,6 +14,7 @@
 *  Green: #669D2C;
 *  Light Grey: #DBDEE3;
 *  Dark Grey: #637076;
+*  Dark Grey Hover: #777;
    ==============================================
 
    ==========================================================================
@@ -117,7 +118,7 @@ body {
 
 /* --Container Items-------------------------------------------------------- */
 .container {
-    width: 1200px; /* Padding has already been used */
+    width: 1200px;
     margin: 0px auto;
 }
 
@@ -159,16 +160,19 @@ body {
    $ Header Items
    ========================================================================== */
 .header {
-    height: 320px;
-    margin-top: 100px;
-    color: #545454;
+    height: 455px;
+    color: #637076;
     font-family: "Lato", "Trebuchet MS";
+    margin-bottom: 500px;
 }
 .header .title {
-    font-size: 40px;
-    margin-bottom: 13px;
+    font-size: 50px;
+    margin: 0px;
+    padding-top: 80px;
+    font-weight: normal;
+    margin-bottom: 10px;
 }
-.header a {
+.header .title a {
     color: #545454;
     text-decoration: none;
     -moz-transition: all .2s ease-in;
@@ -190,92 +194,79 @@ body {
 /* --Intro Items------------------------------------------------------------- */
 .header .intro {
     float: left;
-    border-right: 1px solid #CACAD9;
-    padding-right: 65px;
-    width: 500px;
+    width: 50%;
+    margin-top: 30px;
+}
+.header .intro-details {
+    width: 65%;
+    float: right;
 }
 .header .intro img {
     float: left;
-    margin-top: 5px;
     border-radius: 100%;
-    margin-right: 20px;
 }
-.header .intro .intro-details {
-    display: inline;
-}
-.header .intro .intro-details .intro-sub-title {
-    margin-bottom: 20px;
+.header .intro .intro-job-title {
     font-size: 17px;
-    color: #777;
 }
-.header .intro .intro-details .intro-text {
-    display: block;
+.header .intro .intro-text {
     font-size: 14px;
-    margin-top: 12px;
-}
-.header .intro .intro-details .intro-sub-name {
+    display: block;
     margin-top: 30px;
-    margin-bottom: 5px;
+}
+.header .intro .intro-doc-name {
     font-size: 19px;
     font-family: "Shadows Into Light Two", Georgia;
+    margin-top: 60px;
 }
 
 /* --Contact Items---------------------------------------------------------- */
 .header .contact {
     float: right;
-}
-.header .contact {
+    width: 35%;
     list-style: none;
-    margin-top: 0px;
-    text-align: left;
-    width: 334px;
+    margin: 0px;
+    padding: 0px;
 }
 .header .contact li {
-    height: 65px;
+    height: 90px;
     width: 100%;
 }
-.header .contact a {
+.header .contact li a {
+    display: block;
+    width: 100%;
+    height: 85px;
     color: #669D2C;
     font-size: 14px;
     text-decoration: none;
-    -moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    -ms-transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
+    line-height: 85px;
 }
-.header .contact .email {
+.header .contact .email a {
     background: url("img/icon-email-static.svg") no-repeat 100% 50%;
 
 }
-.header .contact .email:hover {
+.header .contact .email a:hover {
     background: url("img/icon-email-hover.svg") no-repeat 100% 50%;
 
 }
-.header .contact .linked {
+.header .contact .linked a {
     background: url("img/icon-linkedin-static.svg") no-repeat 100% 50%;
 
 }
-.header .contact .linked:hover {
+.header .contact .linked a:hover {
     background: url("img/icon-linkedin-hover.svg") no-repeat 100% 50%;
 
 }
-.header .contact .git {
+.header .contact .git a {
     background: url("img/icon-git-static.svg") no-repeat 100% 50%;
 
 }
-.header .contact .git:hover {
+.header .contact .git a:hover {
     background: url("img/icon-git-hover.svg") no-repeat 100% 50%;
 
 }
-/*.header .contact a:hover {
+.header .contact li a:hover {
     text-decoration: underline;
     color: #328127;
-    -moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    -ms-transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
 }
 
 /* ==========================================================================
@@ -311,7 +302,7 @@ body {
 
 /* --Skills Items------------------------------------------------------------ */
 .skills {
-    float: left;
+    float: left;=
 }
 .skills .title-skills {
     width: 346px;
@@ -529,112 +520,6 @@ body {
 .footer a:hover {
     text-decoration: underline;
     color: #328127;
-}
-
-/* ==========================================================================
-   Responsive Styling (breakpoint: 500px)
-   ========================================================================== */
-@media (max-width: 500px){
-    .body {
-        background: #FFF url("img/background-line-header-2.png") repeat-x;  
-    }
-
-/* --Container Items---------------------------- */
-    .container {
-        width: 100%;
-    }
-
-/* --Sub Container Full Items------------------- */
-    .sub-container-full {
-        width: 100%;
-    }
-    .section-title-full {
-        width: 100%;
-    }
-
-/* --Sub Container Half Items------------------- */
-    .sub-container-half {
-        width: 100%;
-        margin-top: 30px;
-    }
-
-/* --Intro Items-------------------------------- */
-    .header .intro {
-        border: none;
-        width: 100%;
-        padding-right: 0px;
-    }
-    .header .intro img {
-        margin-right: 15px;
-    }
-    .header .intro .intro-details {
-        display: inline;
-        margin-left: 0px;
-    }
-    .header .intro .intro-details .intro-text {
-        width: 100%;
-        display: block;
-        padding-left: 10px;
-    }
-
-/* --Contact Items----------------------------- */
-    .header .contact {
-        float: left;
-    }
-    .header .contact ul li {
-        margin-bottom: 5px;
-    }
-
-/* --Skills Items------------------------------ */
-    .skills .skill-list {
-        width: 100%;
-    }
-    .skills .skill-list .whole-bar {
-        margin-bottom: 5px;
-    }
-    .skills .section-title-half {
-        width: 100%;
-    }
-    .skills .title-skills{
-        width: 100%;
-    }
-
-
-/* --Work Experience Items-------------------- */
-    .work .title-work {
-        width: 53%;
-    }
-    .work .role-date {
-        width: 100%;
-        margin-top: 30px;
-    }
-    .work .role-date .role {
-        float: left;
-    }
-    .work .role-date .date {
-        float: right;
-    }
-
-/* --Achievements & Interests Items----------- */
-    .achievements {
-        float: left;
-    }
-    .interests {
-        float: left;
-        clear: both;
-    }
-    .bullet-points {
-        padding: 0px;
-    }
-    .bullet-points li {
-        padding: 10px;
-    }
-    .interests .section-title-half {
-        height: 20px;
-    }
-    .achievements .section-title-half {
-        height: 20px;
-    }
 }
 
 /* ==========================================================================
