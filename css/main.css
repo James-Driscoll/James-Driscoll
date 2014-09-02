@@ -192,15 +192,15 @@ body {
 
 /* --Intro Items------------------------------------------------------------- */
 .header .intro {
-    float: left;
     width: 50%;
     margin-top: 30px;
 }
 .header .intro-details {
     width: 65%;
-    float: right;
+    float: left;
+    margin-left: 5%;
 }
-.header .intro img {
+.header img.portrait {
     float: left;
     border-radius: 100%;
 }
@@ -380,7 +380,7 @@ body {
 
 /* --Education Items--------------------------------------------------------- */
 .education {
-    float: right;
+    width: 100%;
 }
 .education .title-education {
     width: 288px;
