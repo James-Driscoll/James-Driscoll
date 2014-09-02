@@ -62,7 +62,28 @@
 		width: 55%;
 	}
 	.header .intro .intro-details {
-		width: 60%;
+		width: 100%;
+	}
+	.header .contact li a {
+		text-align: right;
+	}
+	.header .contact .email a {
+		background: none;
+	}
+	.header .contact .git a {
+		background: none;
+	}
+	.header .contact .linked a {
+		background: none;
+	}
+	.header .contact .email a:hover {
+		background: none;
+	}
+	.header .contact .git a:hover {
+		background: none;
+	}
+	.header .contact .linked a:hover {
+		background: none;
 	}
 }
 

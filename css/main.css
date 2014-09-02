@@ -169,7 +169,7 @@ body {
     margin: 0px;
     padding-top: 80px;
     font-weight: normal;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 .header .title a {
     color: #545454;
@@ -199,10 +199,12 @@ body {
     width: 65%;
     float: left;
     margin-left: 5%;
+    margin-top: 30px;
 }
 .header img.portrait {
     float: left;
     border-radius: 100%;
+    margin-top: 30px;
 }
 .header .intro .intro-job-title {
     font-size: 17px;
