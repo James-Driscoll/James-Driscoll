@@ -124,7 +124,29 @@
 @media screen and (max-width: 500px) {
 	/* --Header Items------------------------------------------------------- */
 	.header img.portrait {
-			float: left;
-			clear: both;
-		}
+		float: left;
+		clear: both;
+	}
+	.header .title {
+		padding-top: 0px;
+		margin-bottom: 5px;
+		text-align: center;
+		float: none;
+	}
+	.header img.portrait {
+		float: none;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto	
+	}
+	.header .intro {
+		display: block;
+		float: none;
+		width: 100%;
+		margin: 10px 0px 0px 0px;
+
+	}
+	.header .intro .intro-doc-name {
+		display: none;
+	}
 }
