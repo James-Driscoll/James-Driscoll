@@ -15,10 +15,7 @@
 	}
 	/* --Header Items------------------------------------------------------- */
 	.header .intro {
-		width: 55%;
-	}
-	.header .intro .intro-details {
-		width: 60%;
+		width: 30%;
 		margin-left: 2%;
 	}
 	.header .contact {
@@ -34,23 +31,12 @@
 	.container {
 		width: 95%;
 	}
-	/* --Header Items------------------------------------------------------- */
-	.header .intro {
-		width: 55%;
-	}
-	.header .intro .intro-details {
-		width: 55%;
-	}
 }
 
 /* =========================================================================
    Max Width : 800px; -- Small Desktop
    ========================================================================= */
 @media screen and (max-width: 800px) {
-	/* --Site Items--------------------------------------------------------- */
-	.container {
-		width: 95%;
-	}
 	/* --Header Items------------------------------------------------------- */
 	.header .title {
 		float: left;
@@ -58,11 +44,14 @@
 	.header img.portrait {
 		float: right;
 	}
-	.header .intro .intro-details {
-		width: 65%;
+	.header .intro {
+		width: 40%;
+		clear: both;
+		margin-top: 85px;
 	}
 	.header .contact {
-		width: 50%;
+		width: 45%;
+		margin-top: 50px;
 	}
 }
 
@@ -71,10 +60,17 @@
    ========================================================================= */
 @media screen and (max-width: 600px) {
 	/* --Site Items--------------------------------------------------------- */
+	body {
+    	background: #FFF url("img/background-header-tablet.png") repeat-x;  
+	}
 	.container {
 		width: 100%;
 	}
 	/* --Header Items------------------------------------------------------- */
+	.header {
+		height: 350px;
+		margin-top: 20px;
+	}
 	.header .title {
 		padding-top: 40px;
 	}
@@ -82,16 +78,14 @@
 		margin-top: 0px;
 	}
 	.header .intro {
-		width: 49%;
+		width: 50%;
+		margin-top: 25px;
 	}
-	.header .intro .intro-details {
-		width: 100%;
-	}
-	.header .intro .intro-details .intro-text {
+	.header .intro .intro-text {
 		margin-top: 10px;
 	}
-	.header .intro .intro-details .intro-doc-name {
-		margin-top: 25px;
+	.header .intro .intro-doc-name {
+		margin-top: 20px;
 	}
 	.header .contact {
 		margin-top: 10px;

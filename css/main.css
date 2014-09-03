@@ -113,7 +113,7 @@ textarea {
    $ Site Items
    ========================================================================== */
 body {
-    background: #FFF url("img/background-line-header.png") repeat-x;  
+    background: #FFF url("img/background-header-desktop.png") repeat-x;  
 }
 
 /* --Container Items-------------------------------------------------------- */
@@ -192,14 +192,10 @@ body {
 
 /* --Intro Items------------------------------------------------------------ */
 .header .intro {
-    width: 50%;
-    margin-top: 30px;
-}
-.header .intro-details {
-    width: 65%;
     float: left;
-    margin-left: 5%;
+    width: 35%;
     margin-top: 30px;
+    margin-left: 5%;
 }
 .header img.portrait {
     float: left;
