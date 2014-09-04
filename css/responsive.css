@@ -64,7 +64,7 @@
     	background: #FFF url("img/background-header-tablet.png") repeat-x;  
 	}
 	.container {
-		width: 100%;
+		width: 98%;
 	}
 	/* --Header Items------------------------------------------------------- */
 	.header {
@@ -80,6 +80,7 @@
 	.header .intro {
 		width: 50%;
 		margin-top: 25px;
+		margin-left: 0;	
 	}
 	.header .intro .intro-text {
 		margin-top: 10px;
@@ -144,9 +145,19 @@
 		float: none;
 		width: 100%;
 		margin: 10px 0px 0px 0px;
-
 	}
 	.header .intro .intro-doc-name {
 		display: none;
+	}
+	.header .contact {
+		width: 100%;
+	}
+	.header .contact li {
+		height: 30px;
+	}
+	.header .contact li a {
+		height: 30px;
+		line-height: 30px;
+		text-align: center;	
 	}
 }
