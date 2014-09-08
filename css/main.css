@@ -124,40 +124,6 @@ body {
     margin: 0px auto;
 }
 
-/* --Sub Container Full Items----------------------------------------------- */
-.sub-container-full {
-    clear: both;
-    padding-top: 50px; 
-    font-family: "Lato" "Trebuchet MS";
-    color: #646472;
-}
-.sub-container-full .section-title-full {
-    height: 70px;
-    position: relative;
-}
-
-/* --Sub Container Half Items------------------------------------------------ */
-.sub-container-half {
-    width: 430px;
-    font-family: "Lato" "Trebuchet MS";
-    color: #646472;
-}
-.sub-container-half .section-title-half {
-    width: 430px;
-    height: 70px;
-    position: relative;
-}
-.sub-container-half .section-title-half h2 {
-    color: #646472;
-    display: inline;
-}
-
-/* --Content Items---------------------------------------------------------- */
-.content {
-    clear: both;
-    font-family: "Lato", "Trebuchet MS";
-}
-
 /* ==========================================================================
    $ Header Items
    ========================================================================== */
@@ -273,17 +239,7 @@ body {
 /* ==========================================================================
    Main Content Items
    ========================================================================== */
-/* --Box Items--------------------------------------------------------------- */
-.box {
-    width: 210px;
-    height: 38px;
-    background-color: #DBDEE3;
-    color: #646472;
-    font-family: "Lato" "Trebuchet MS";
-    font-size: 14px;  
-    text-align: center;
-    line-height: 37px;  
-}
+
 
 /* --Bullet Points Items---------------------------------------------------- */
 .bullet-points li {
@@ -291,11 +247,12 @@ body {
     margin-left: 20px;
 }
 
-/* --Title Bar Items-------------------------------------------------------- */
+/* --Section Title Items----------------------------------------------------- */
 .section-title {
     font-size: 80px;
     color: #646472;
     font-weight: normal;
+    margin-top: 30;
     margin-bottom: 10px;
 }
 
@@ -383,13 +340,31 @@ body {
 /* --Education Items--------------------------------------------------------- */
 .education {
     width: 100%;
+    background: #669D2C;
+    color: #DBDEE3;
 }
-.education .title-education {
-    width: 288px;
-    left: 142px;
+.education .section-title{
+    color: #DBDEE3;
+}
+.education .edu-details {
+    height: 40px;
+    background: #DBDEE3;
+    color: #637076;
+    line-height: 40px;
+    font-weight: normal;
+}
+.education .edu-details .edu-level {
+    float: left;
+    padding-left: 30px;
+    margin: 0;
+    font-weight: normal;
+}
+.education .edu-details .edu-date {
+    float: right;
+    padding-right: 30px;
 }
 .education .edu-logo {
-    float: left;
+    float: right;
 }
 .education .edu-logo:hover {
     opacity: 0.8;
