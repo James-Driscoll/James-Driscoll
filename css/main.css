@@ -113,7 +113,9 @@ textarea {
    $ Site Items
    ========================================================================== */
 body {
-    background: #FFF url("img/background-header-desktop.png") repeat-x;  
+    background: #FFF;
+    border-top: 10px solid #669D2C;
+    border-bottom: 10px solid #669D2C;
 }
 
 /* --Container Items-------------------------------------------------------- */
@@ -160,7 +162,9 @@ body {
    $ Header Items
    ========================================================================== */
 .header {
+    width: 100%;
     height: 550px;
+    background: #F5F5F5;
     color: #637076;
     font-family: "Lato", "Trebuchet MS";
 }

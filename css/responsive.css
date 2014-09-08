@@ -50,7 +50,7 @@
 		margin-top: 85px;
 	}
 	.header .contact {
-		width: 45%;
+		width: 50%;
 		margin-top: 50px;
 	}
 }
@@ -60,16 +60,13 @@
    ========================================================================= */
 @media screen and (max-width: 600px) {
 	/* --Site Items--------------------------------------------------------- */
-	body {
-    	background: #FFF url("img/background-header-tablet.png") repeat-x;  
-	}
 	.container {
 		width: 98%;
 	}
 	/* --Header Items------------------------------------------------------- */
 	.header {
 		height: 350px;
-		margin-top: 20px;
+		padding-top: 20px;
 	}
 	.header .title {
 		padding-top: 40px;
@@ -124,6 +121,9 @@
    ========================================================================= */
 @media screen and (max-width: 500px) {
 	/* --Header Items------------------------------------------------------- */
+	.header {
+		background: none;
+	}
 	.header img.portrait {
 		float: left;
 		clear: both;
