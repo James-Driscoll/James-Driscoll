@@ -342,6 +342,7 @@ body {
     width: 100%;
     background: #669D2C;
     color: #DBDEE3;
+    height: 1400px;
 }
 .education .section-title{
     color: #DBDEE3;
@@ -352,6 +353,7 @@ body {
     color: #637076;
     line-height: 40px;
     font-weight: normal;
+    margin-bottom: 30px;
 }
 .education .edu-details .edu-level {
     float: left;
@@ -365,9 +367,13 @@ body {
 }
 .education .edu-logo {
     float: right;
+    margin-top: 50px;
 }
 .education .edu-logo:hover {
     opacity: 0.8;
+}
+.education .section-details {
+    float: left;
 }
 .education .level {
     display: block;
@@ -385,20 +391,41 @@ body {
 .education .course span {
     font-size: 18px;
 }
+.education .course-year {
+    display: block;
+}
 .education .modules {
     list-style: none;
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 0px;
-    padding-left: 20px;
+    padding-left: 30px;
+}
+.education .sixth .modules li {
+    font-size: 18px;
+    padding-bottom: 10px;
 }
 .education .sixth {
-    margin-top: 35px;
+    padding-top: 40px;
+    clear: both;
+}
+.education .sixth .edu-details {
+    margin-bottom: 0px;
+}
+.education .sixth .edu-logo {
+    margin-top: 5px;
+}
+.education .sixth .modules {
+    margin-top: 80px;
 }
 .education .secondary {
-    margin-top: 35px;
+    clear: both;
+    padding-top: 50px;  
 }
-.education .date {
-    float: right;
+.education .secondary .modules {
+    font-size: 18px;
+}
+.education .secondary .edu-logo img {
+    border-radius: 20px;
 }
 
 /* --Work Experience Items--------------------------------------------------- */
