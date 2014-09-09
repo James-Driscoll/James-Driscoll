@@ -447,6 +447,15 @@ body {
 }
 
 /* --Work Experience Items--------------------------------------------------- */
+.work .company .name {
+    height: 40px;
+    background: #DBDEE3;
+    color: #637076;
+    line-height: 40px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    padding-left: 30px;
+}
 .work .title-work {
     width: 76%;
     left: 225px;
@@ -455,18 +464,23 @@ body {
     clear: both;
     margin-bottom: 60px;
 }
-.work .work-logo {
-    float: left;
+.work .company .logo {
+    float: right;
+    margin-top: 30px;
+    position: relative;
+    width: 40%;
 }
-.work .work-logo:hover {
+.work .company .logo img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.work .company .logo img:hover {
     opacity: 0.8;
 }
-.work .role-date {
-    float: right;
-    width: 570px;
-}
-.work .role-date .role {
-    float: left;
+.work .company .box {
+    width: 100%;
     background-color: #669D2C;
     color: #FFF;
     font-family: "Lato" "Trebuchet MS";
@@ -475,9 +489,18 @@ body {
     line-height: 37px; 
     margin: 0px;
     font-weight: normal;
+    display: block;
+    margin-top: 30px;
+}
+.work .company .details {
+    float: left;
+    width: 35%;
+}
+.work .role {
+
 }    
-.work .role-date .date {
-    float: right;
+.work .date {
+    
 }
 .work .description {
     clear: both;
@@ -486,7 +509,10 @@ body {
 
 /* --Achievements & Interests Items------------------------------------------ */
 .achievements {
-    float: left;
+    width: 100%;
+    background: #669D2C;
+    color: #DBDEE3;
+    height: 400px;
 }
 .achievements .title-achievements {
     width: 244px;
@@ -520,7 +546,6 @@ body {
     background: url("img/icon-tech.png") no-repeat 87% 50%;
 }
 .interests {
-    float: right;
 }
 .interests .title-interests {
     width: 302px;
@@ -532,9 +557,11 @@ body {
    ========================================================================== */
 .footer {
     clear: both;
-    height: 110px;
-    background: #FFF url("img/background-line-footer.png") repeat-x;
     position: relative;
+    width: 100%;
+    height: 150px;
+    background: #F5F5F5;
+    color: #637076;
 }
 .footer a {
     color: #669D2C;
