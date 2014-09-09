@@ -342,12 +342,12 @@ body {
     width: 100%;
     background: #669D2C;
     color: #DBDEE3;
-    height: 1400px;
+    height: 1150px;
 }
 .education .section-title{
     color: #DBDEE3;
 }
-.education .edu-details {
+.education .details {
     height: 40px;
     background: #DBDEE3;
     color: #637076;
@@ -355,31 +355,21 @@ body {
     font-weight: normal;
     margin-bottom: 30px;
 }
-.education .edu-details .edu-level {
+.education .details .level {
     float: left;
+    display: block;
+    clear: both;
     padding-left: 30px;
     margin: 0;
-    font-weight: normal;
+    font-weight: normal;    
+    font-size: 15px;
 }
-.education .edu-details .edu-date {
+.education .details .date {
     float: right;
     padding-right: 30px;
 }
-.education .edu-logo {
-    float: right;
-    margin-top: 50px;
-}
-.education .edu-logo:hover {
-    opacity: 0.8;
-}
 .education .section-details {
     float: left;
-}
-.education .level {
-    display: block;
-    clear: both;
-    font-size: 15px;
-    padding-top: 10px;
 }
 .education .course {
     clear: both;
@@ -399,33 +389,61 @@ body {
     font-size: 15px;
     margin-top: 0px;
     padding-left: 30px;
+}   
+/* --Logo Items----------------------------------- */
+.education .logo {
+    float: right;
+    margin-top: 30px;
+    position: relative;
+    width: 40%;
 }
-.education .sixth .modules li {
-    font-size: 18px;
-    padding-bottom: 10px;
+.education .logo img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
+.education .logo:hover {
+    opacity: 0.8;
+}
+
+/* --Degree Items--------------------------------- */
+.education .degree .logo {
+    margin-top: 50px;
+}
+
+/* --A-Levels Items------------------------------- */
 .education .sixth {
     padding-top: 40px;
     clear: both;
 }
-.education .sixth .edu-details {
+.education .sixth .details {
     margin-bottom: 0px;
 }
-.education .sixth .edu-logo {
+.education .sixth .logo {
     margin-top: 5px;
 }
 .education .sixth .modules {
-    margin-top: 80px;
+    margin-top: 50px;
 }
+.education .sixth .modules li {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+/* --Secondary Items------------------------------- */
 .education .secondary {
     clear: both;
-    padding-top: 50px;  
+    padding-top: 40px;  
 }
 .education .secondary .modules {
     font-size: 18px;
 }
-.education .secondary .edu-logo img {
-    border-radius: 20px;
+.education .secondary .logo {
+    position: relative;
+}
+.education .secondary .logo img {
+    border-radius: 10px;
 }
 
 /* --Work Experience Items--------------------------------------------------- */
