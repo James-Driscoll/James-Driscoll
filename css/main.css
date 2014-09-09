@@ -26,7 +26,7 @@ button,
 input,
 select,
 textarea {
-    color: #222;
+    color: #669D2C;
 }
 
 html {
@@ -301,7 +301,7 @@ body {
     height: 37px;
     width: 324px;
 }
-.skill-list .green {
+.skill-list .colour {
     background-color: #669D2C;
     height: 37px;
     width: 324px;
@@ -566,7 +566,7 @@ body {
 .footer a {
     color: #669D2C;
     font-size: 14px;
-    text-decoration: none;
+    text-decoration: none
     font-family: "Lato", "Trebuchet MS";
 }
 .footer .email {

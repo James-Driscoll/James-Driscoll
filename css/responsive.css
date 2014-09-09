@@ -53,6 +53,14 @@
 		width: 50%;
 		margin-top: 50px;
 	}
+	/* --Education Items---------------------------------------------------- */
+	/* --Degree Items--------------------- */
+	.education .degree .logo {
+		float: none;
+	}
+	.education .degree .logo img {
+		max-width: 60%;
+	}
 }
 
 /* =========================================================================
@@ -113,6 +121,11 @@
 	}
 	.header .contact .linked a:hover {
 		background: none;
+	}
+	/* --Education Items---------------------------------------------------- */
+	/* --Degree Items--------------------- */
+	.education .degree .logo {
+		float: none;
 	}
 }
 
