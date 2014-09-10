@@ -6,9 +6,9 @@
 
 
 /* =========================================================================
-   Max Width : 1200px; -- Full Sized Desktop
+   Max Width : 1500px; -- Full Sized Desktop
    ========================================================================= */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
 	/* --Site Items--------------------------------------------------------- */
 	.container {
 		width: 85%;
