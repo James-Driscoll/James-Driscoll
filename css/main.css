@@ -3,7 +3,7 @@
    --Author Details--
    ==============================================
 *  Author:     James Driscoll
-*  Author URI: http://www.james-driscoll.co.uk
+*  Author URI: http://www.jamesdriscoll.london
 *  Version:    3.0
    ==============================================
 
@@ -12,9 +12,10 @@
 *  Background: #FFF;
 *  Header Background: #F5F5F5;
 *  Green: #669D2C;
+*  Dark Green (Hover): #328127;;
 *  Light Grey: #DBDEE3;
 *  Dark Grey: #637076;
-*  Dark Grey Hover: #777;
+*  Dark Grey (Hover): #777;
    ==============================================
 
    ==========================================================================
@@ -502,26 +503,20 @@ body {
     float: left;
     width: 35%;
 }
-.work .role {
-
-}    
-.work .date {
-    
-}
 .work .description {
     clear: both;
     padding-top: 10px;
+    color: #637076;
 }
 
-/* --Achievements & Interests Items------------------------------------------ */
+/* --Achievements Items------------------------------------------------------ */
 .achievements {
     width: 100%;
     background: #669D2C;
     color: #DBDEE3;
 }
-.achievements .title-achievements {
-    width: 244px;
-    left: 186px;
+.achievements .section-title{
+    color: #DBDEE3;
 }
 .bullet-points li {
     list-style: none;
@@ -550,11 +545,10 @@ body {
 .bullet-points .tech {
     background: url("img/icon-tech.png") no-repeat 87% 50%;
 }
+
+/* --Interests Items--------------------------------------------------------- */
 .interests {
-}
-.interests .title-interests {
-    width: 302px;
-    left: 128px;
+    color: #637076;
 }
 
 /* ==========================================================================
@@ -568,15 +562,18 @@ body {
     background: #F5F5F5;
     color: #637076;
 }
+.footer .container {
+    padding-bottom: 0;
+}
 .footer a {
     color: #669D2C;
     font-size: 14px;
-    text-decoration: none
+    text-decoration: none;
     font-family: "Lato", "Trebuchet MS";
 }
 .footer .email {
     position: absolute;
-    top: 40px;
+    top: 65px;
 }
 .footer a:hover {
     text-decoration: underline;
