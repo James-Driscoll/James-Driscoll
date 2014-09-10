@@ -563,13 +563,13 @@ body {
    ========================================================================== */
 .footer {
     clear: both;
-    position: relative;
     width: 100%;
     height: 150px;
     background: #F5F5F5;
     color: #637076;
 }
 .footer .container {
+    padding-top: 70px;
     padding-bottom: 0;
 }
 .footer a {
@@ -579,12 +579,15 @@ body {
     font-family: "Lato", "Trebuchet MS";
 }
 .footer .email {
-    position: absolute;
-    top: 65px;
+    float: left;
 }
 .footer a:hover {
     text-decoration: underline;
     color: #328127;
+}
+.footer .author {
+    float: right;
+    margin-top: 0;
 }
 
 /* ==========================================================================
