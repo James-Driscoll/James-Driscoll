@@ -185,6 +185,7 @@ body {
     font-size: 19px;
     font-family: "Shadows Into Light Two", Georgia;
     margin-top: 60px;
+    margin-bottom: 0px;
 }
 
 /* --Contact Items---------------------------------------------------------- */
@@ -307,6 +308,8 @@ body {
     height: 37px;
     width: 324px;
 }
+
+/* --Skill Box Percentages------------- */
 .skills .skill-list .skill-pm {
     width: 70%
 }
@@ -347,6 +350,7 @@ body {
 .education .section-title{
     color: #DBDEE3;
 }
+/* --Details Items--------------------- */
 .education .details {
     height: 40px;
     background: #DBDEE3;
@@ -361,13 +365,33 @@ body {
     clear: both;
     padding-left: 30px;
     margin: 0;
-    font-weight: normal;    
+    font-weight: normal;
     font-size: 15px;
 }
 .education .details .date {
     float: right;
     padding-right: 30px;
+    font-size: 15px;  
 }
+/* --Logo Items----------------------------------- */
+.education .logo {
+    float: right;
+    margin-top: 30px;
+    position: relative;
+    width: 40%;
+}
+.education .logo img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.education .logo:hover {
+    opacity: 0.8;
+}
+
+/* --Degree Items--------------------------------- */
+/* --Section-Details Items------------- */
 .education .section-details {
     float: left;
 }
@@ -389,27 +413,9 @@ body {
     font-size: 15px;
     margin-top: 0px;
     padding-left: 30px;
-}   
-/* --Logo Items----------------------------------- */
-.education .logo {
-    float: right;
-    margin-top: 30px;
-    position: relative;
-    width: 40%;
 }
-.education .logo img {
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-.education .logo:hover {
-    opacity: 0.8;
-}
-
-/* --Degree Items--------------------------------- */
 .education .degree .logo {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 /* --A-Levels Items------------------------------- */

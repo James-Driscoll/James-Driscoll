@@ -37,12 +37,19 @@
    Max Width : 800px; -- Small Desktop
    ========================================================================= */
 @media screen and (max-width: 800px) {
+	/* --Site Items--------------------------------------------------------- */
+	.container {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
 	/* --Header Items------------------------------------------------------- */
 	.header .title {
 		float: left;
+		margin-top: 30px;
 	}
 	.header img.portrait {
 		float: right;
+		margin-top: 0px;
 	}
 	.header .intro {
 		width: 40%;
@@ -60,6 +67,9 @@
 	}
 	.education .degree .logo img {
 		max-width: 60%;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto; 
 	}
 }
 
@@ -74,10 +84,6 @@
 	/* --Header Items------------------------------------------------------- */
 	.header {
 		height: 350px;
-		padding-top: 20px;
-	}
-	.header .title {
-		padding-top: 40px;
 	}
 	.header img.portrait {
 		margin-top: 0px;
@@ -133,6 +139,10 @@
    Max Width : 500px; -- Mobile Devices
    ========================================================================= */
 @media screen and (max-width: 500px) {
+	/* --Site Items--------------------------------------------------------- */
+	.container .section-title {
+			font-size: 50px;
+		}
 	/* --Header Items------------------------------------------------------- */
 	.header {
 		background: none;
@@ -143,6 +153,7 @@
 	}
 	.header .title {
 		padding-top: 0px;
+		margin-top: 0px;
 		margin-bottom: 5px;
 		text-align: center;
 		float: none;
@@ -172,5 +183,18 @@
 		height: 30px;
 		line-height: 30px;
 		text-align: center;	
+	}
+
+	/* --Education Items---------------------------------------------------- */
+	.education .details .level {
+		font-size: 13px;
+		padding-left: 10px;
+	}
+	.education .details .date {
+		font-size: 13px;
+		padding-right: 10px;
+	}
+	.education .modules {
+		padding-left: 10px;
 	}
 }
