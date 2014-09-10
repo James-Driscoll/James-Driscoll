@@ -122,6 +122,8 @@ body {
 .container {
     width: 1200px;
     margin: 0px auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 /* ==========================================================================
@@ -137,7 +139,6 @@ body {
 .header .title {
     font-size: 50px;
     margin: 0px;
-    padding-top: 80px;
     font-weight: normal;
     margin-bottom: 30px;
 }
@@ -252,7 +253,7 @@ body {
     font-size: 80px;
     color: #646472;
     font-weight: normal;
-    margin-top: 30;
+    margin-top: 0;
     margin-bottom: 10px;
 }
 
@@ -342,7 +343,6 @@ body {
     width: 100%;
     background: #669D2C;
     color: #DBDEE3;
-    height: 1150px;
 }
 .education .section-title{
     color: #DBDEE3;
@@ -512,7 +512,6 @@ body {
     width: 100%;
     background: #669D2C;
     color: #DBDEE3;
-    height: 400px;
 }
 .achievements .title-achievements {
     width: 244px;
