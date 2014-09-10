@@ -403,7 +403,7 @@ body {
     margin-bottom: 8px;  
 }
 .education .course span {
-    font-size: 18px;
+    font-size: 20px;
 }
 .education .course-year {
     display: block;
@@ -419,22 +419,18 @@ body {
 }
 
 /* --A-Levels Items------------------------------- */
-.education .sixth {
+.education .a-level {
     padding-top: 40px;
     clear: both;
 }
-.education .sixth .details {
+.education .a-level .details {
     margin-bottom: 0px;
 }
-.education .sixth .logo {
-    margin-top: 5px;
+.education .a-level .logo {
+    margin-top: 25px;
 }
-.education .sixth .modules {
-    margin-top: 50px;
-}
-.education .sixth .modules li {
-    font-size: 18px;
-    padding-bottom: 15px;
+.education .a-level #a-levels {
+    margin-top: 30px;
 }
 
 /* --Secondary Items------------------------------- */
@@ -443,13 +439,17 @@ body {
     padding-top: 40px;  
 }
 .education .secondary .modules {
-    font-size: 18px;
+    width: 50%;
 }
 .education .secondary .logo {
     position: relative;
+    margin-top: 0px;
 }
 .education .secondary .logo img {
     border-radius: 10px;
+}
+.education .secondary .logo {
+    margin-top: 0px;
 }
 
 /* --Work Experience Items--------------------------------------------------- */

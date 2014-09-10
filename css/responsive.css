@@ -129,9 +129,11 @@
 		background: none;
 	}
 	/* --Education Items---------------------------------------------------- */
-	/* --Degree Items--------------------- */
 	.education .degree .logo {
 		float: none;
+	}
+	.education .secondary .logo img {
+   		border-radius: 0px;
 	}
 }
 
