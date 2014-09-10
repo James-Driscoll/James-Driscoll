@@ -245,9 +245,16 @@ body {
 
 
 /* --Bullet Points Items---------------------------------------------------- */
+.bullet-points {
+    padding-left: 0px;
+    text-align: center;
+}
 .bullet-points li {
-    padding: 15px;
-    margin-left: 20px;
+    display: inline-block;
+    padding: 20px;
+    margin-left: 0px;
+    height: 100px;
+    line-height: 100px;
 }
 
 /* --Section Title Items----------------------------------------------------- */
@@ -522,33 +529,33 @@ body {
     list-style: none;
 }
 .bullet-points .cisco {
-    background: url("img/icon-cisco.png") no-repeat 90% 50%;
+    background: url("img/icon-cisco.png") no-repeat 50% 0%;
 }
 .bullet-points .office {
-    background: url("img/icon-office.png") no-repeat 87% 50%;
+    background: url("img/icon-office.png") no-repeat 50% 0%;
 }
 .bullet-points .dofe {
-    background: url("img/icon-dofe.png") no-repeat 88% 50%;
+    background: url("img/icon-dofe.png") no-repeat 50% 0%;
 }
 .bullet-points .guitar {
-    background: url("img/icon-guitar.png") no-repeat 87% 50%;
+    background: url("img/icon-guitar.png") no-repeat 50% 0%;
 }
 .bullet-points .drive {
-    background: url("img/icon-drive.png") no-repeat 87% 50%;
-}
-.bullet-points .squash {
-    background: url("img/icon-squash.png") no-repeat 87% 50%;
-}
-.bullet-points .gym {
-    background: url("img/icon-gym.png") no-repeat 87% 50%;
-}
-.bullet-points .tech {
-    background: url("img/icon-tech.png") no-repeat 87% 50%;
+    background: url("img/icon-drive.png") no-repeat 50% 0%;
 }
 
 /* --Interests Items--------------------------------------------------------- */
 .interests {
     color: #637076;
+}
+.bullet-points .squash {
+    background: url("img/icon-squash.png") no-repeat 50% 0%;
+}
+.bullet-points .gym {
+    background: url("img/icon-gym.png") no-repeat 50% 0%;
+}
+.bullet-points .tech {
+    background: url("img/icon-tech.png") no-repeat 50% 0%;
 }
 
 /* ==========================================================================
