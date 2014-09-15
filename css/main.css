@@ -482,7 +482,7 @@ body {
     float: right;
     margin-top: 30px;
     position: relative;
-    width: 40%;
+    width: 50%;
 }
 .work .company .logo img {
     width: 100%;
@@ -505,7 +505,7 @@ body {
 }
 .work .company .details {
     float: left;
-    width: 35%;
+    width: 40%;
 }
 .work .description {
     clear: both;
