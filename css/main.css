@@ -253,8 +253,8 @@ body {
     display: inline-block;
     padding: 20px;
     margin-left: 0px;
-    height: 100px;
-    line-height: 100px;
+    height: 150px;
+    line-height: 220px;
 }
 
 /* --Section Title Items----------------------------------------------------- */
@@ -539,6 +539,9 @@ body {
 }
 .bullet-points .drive {
     background: url("img/icon-drive.png") no-repeat 50% 0%;
+}
+.bullet-points .placement {
+    background: url("img/icon-placement.png") no-repeat 50% 0%;
 }
 
 /* --Interests Items--------------------------------------------------------- */
