@@ -485,10 +485,7 @@ body {
     width: 40%;
 }
 .work .company .logo img {
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    display: block;
+    width: 100%;
 }
 .work .company .logo img:hover {
     opacity: 0.8;
