@@ -254,7 +254,7 @@ body {
     padding: 20px;
     margin-left: 0px;
     height: 150px;
-    line-height: 220px;
+    line-height: 250px;
 }
 
 /* --Section Title Items----------------------------------------------------- */
@@ -526,19 +526,19 @@ body {
     list-style: none;
 }
 .bullet-points .cisco {
-    background: url("img/icon-cisco.png") no-repeat 50% 0%;
+    background: url("img/icon-cisco.png") no-repeat 50% 30%;
 }
 .bullet-points .office {
-    background: url("img/icon-office.png") no-repeat 50% 0%;
+    background: url("img/icon-office.png") no-repeat 50% 12%;
 }
 .bullet-points .dofe {
-    background: url("img/icon-dofe.png") no-repeat 50% 0%;
+    background: url("img/icon-dofe.png") no-repeat 50% 14%;
 }
 .bullet-points .guitar {
-    background: url("img/icon-guitar.png") no-repeat 50% 0%;
+    background: url("img/icon-guitar.png") no-repeat 0% 17%;
 }
 .bullet-points .drive {
-    background: url("img/icon-drive.png") no-repeat 50% 0%;
+    background: url("img/icon-drive.png") no-repeat 50% 30%;
 }
 .bullet-points .placement {
     background: url("img/icon-placement.png") no-repeat 50% 0%;
