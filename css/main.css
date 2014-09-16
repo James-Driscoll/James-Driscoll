@@ -16,6 +16,7 @@
 *  Light Grey: #DBDEE3;
 *  Dark Grey: #637076;
 *  Dark Grey (Hover): #777;
+*  Bar Background: #DBDEE3;
    ==============================================
 
    ==========================================================================
@@ -144,7 +145,7 @@ body {
     margin-bottom: 30px;
 }
 .header .title a {
-    color: #545454;
+    color: #637076;
     text-decoration: none;
     -moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
@@ -173,6 +174,9 @@ body {
     float: left;
     border-radius: 100%;
     margin-top: 30px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
 }
 .header .intro .intro-job-title {
     font-size: 17px;
@@ -260,7 +264,7 @@ body {
 /* --Section Title Items----------------------------------------------------- */
 .section-title {
     font-size: 80px;
-    color: #646472;
+    color: #637076;
     font-weight: normal;
     margin-top: 0;
     margin-bottom: 10px;
