@@ -549,13 +549,25 @@ body {
     color: #637076;
 }
 .bullet-points .squash {
-    background: url("img/icon-squash.png") no-repeat 50% 0%;
+    background: url("img/icon-squash.png") no-repeat 24% 14%;
 }
 .bullet-points .gym {
-    background: url("img/icon-gym.png") no-repeat 50% 0%;
+    background: url("img/icon-gym.png") no-repeat 50% 20%;
 }
 .bullet-points .tech {
-    background: url("img/icon-tech.png") no-repeat 50% 0%;
+    background: url("img/icon-tech.png") no-repeat 50% 7%;
+}
+.bullet-points .business {
+    background: url("img/icon-business.png") no-repeat 50% 13%;
+}
+.bullet-points .webdev {
+    background: url("img/icon-webdev.png") no-repeat 50% 20%;
+}
+.bullet-points .problem {
+    background: url("img/icon-problem.png") no-repeat 50% 0%;
+}
+.bullet-points .world {
+    background: url("img/icon-world.png") no-repeat 50% 7%;
 }
 
 /* ==========================================================================
