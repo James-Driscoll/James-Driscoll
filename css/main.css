@@ -547,6 +547,9 @@ body {
 .bullet-points .placement {
     background: url("img/icon-placement.png") no-repeat 50% 0%;
 }
+.bullet-points .iet {
+    background: url("img/icon-iet.png") no-repeat 50% 23%;
+}
 
 /* --Interests Items--------------------------------------------------------- */
 .interests {
@@ -555,8 +558,8 @@ body {
 .bullet-points .squash {
     background: url("img/icon-squash.png") no-repeat 24% 14%;
 }
-.bullet-points .gym {
-    background: url("img/icon-gym.png") no-repeat 50% 20%;
+.bullet-points .exercise {
+    background: url("img/icon-exercise.png") no-repeat 50% 20%;
 }
 .bullet-points .tech {
     background: url("img/icon-tech.png") no-repeat 50% 7%;
