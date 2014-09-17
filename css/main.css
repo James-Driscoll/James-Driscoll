@@ -541,9 +541,6 @@ body {
 .bullet-points .guitar {
     background: url("img/icon-guitar.png") no-repeat 0% 17%;
 }
-.bullet-points .drive {
-    background: url("img/icon-drive.png") no-repeat 50% 30%;
-}
 .bullet-points .placement {
     background: url("img/icon-placement.png") no-repeat 50% 0%;
 }
@@ -566,6 +563,9 @@ body {
 }
 .bullet-points .business {
     background: url("img/icon-business.png") no-repeat 50% 13%;
+}
+.bullet-points .drive {
+    background: url("img/icon-drive.png") no-repeat 50% 18%;
 }
 .bullet-points .webdev {
     background: url("img/icon-webdev.png") no-repeat 50% 20%;
