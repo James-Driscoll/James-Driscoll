@@ -513,7 +513,27 @@ body {
     padding-top: 10px;
     color: #637076;
 }
+.work .description .portfolio-list {
 
+}
+.work .description .portfolio-list a {
+    text-decoration: none;
+    color: #637076;
+}
+.work .description .portfolio-list a:hover {
+    text-decoration: underline;
+    color: #777;
+    opacity: 0.8;
+}
+.work .description .portfolio-list span a {
+    display: block;
+    margin-bottom: 15px;
+    padding-left: 40px;
+    line-height: 32px;
+}
+.work .description .portfolio-list span .git-link {
+    background: url("img/icon-github.png") no-repeat 0% 50%;
+}
 /* --Achievements Items------------------------------------------------------ */
 .achievements {
     width: 100%;
