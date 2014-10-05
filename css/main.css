@@ -426,6 +426,9 @@ body {
     margin-top: 0px;
     padding-left: 30px;
 }
+.education #placement {
+    margin-bottom: 15px;
+}
 .education .degree .logo {
     margin-top: 100px;
 }
