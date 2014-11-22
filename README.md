@@ -1,15 +1,16 @@
-# james-driscoll.co.uk
+# jamesdriscoll.london
 
-james-driscoll.co.uk is a single page site to professionally describe my qualifications, work experience and interests.
+jamesdriscoll.london is a single page website to professionally describe my qualifications, work experience and interests. A digital CV.
+
+## Access
+* Source Code: [https://github.com/James-Driscoll/James-Driscoll.git](https://github.com/James-Driscoll/James-Driscoll.git)
+* Live Domain: [jamesdriscoll.london](http://jamesdriscoll.london)
+* Staging Domain: [staging.jamesdriscoll.london/jamesdriscolllondon](http://staging.jamesdriscoll.london/jamesdriscolllondon)
 
 ## Use Case
 The purpose of this single page site is to have the abilty to direct colleagues or potential employers to a digital CV that will clearly outline my skills, experience and strengths. The site is deliberately designed with all content on a single page as it simulates a classic document style CV.
 
-The site also has a responsive view styled using a CSS media query.
-
-## Access
-* Source Code: [https://github.com/James-Driscoll/James-Driscoll.git](https://github.com/James-Driscoll/James-Driscoll.git)
-* Homepage: [james-driscoll.co.uk](http://james-driscoll.co.uk)
+The site is front-end responsive, styled using CSS media queries.
 
 ## What's helped me along the way
 * HTML5 Boilerplate: [http://html5boilerplate.com](http://html5boilerplate.com)
@@ -20,7 +21,5 @@ The site also has a responsive view styled using a CSS media query.
 
 ## Improvements & Next Steps
 * The next stage in the development of this project would be to migrate this single page site into a custom theme of a content management system, for example; Wordpress or Drupal. This would then allow me to create a dynamic navigation menu with managed pages. The benefits of this development would be to seemlessly add/remove/modify the content.
-
-* To split the different sections into differnet pages, with a navigation menu to direct users through the pages. This would increase my ability to track each specific section, ultimiately giving me greater visibility of the most read sections.
-
+* To add a sticky navigation menu that scrolls the page up and down to the different sections.
 * To create and add a custom favicon to the site.
