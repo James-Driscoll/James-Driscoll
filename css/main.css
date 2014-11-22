@@ -602,3 +602,34 @@ nav ul a.active {
 .work .description .portfolio-list span .git-link {
     background: url("img/icon-github.png") no-repeat 0% 50%;
 }
+
+/* ==Achievements Section Items=========================================== */
+.achievements {
+    width: 100%;
+    background: #669D2C;
+    color: #DBDEE3;
+}
+.achievements .section-title{
+    color: #DBDEE3;
+}
+.bullet-points li {
+    list-style: none;
+}
+.bullet-points .cisco {
+    background: url("img/icon-cisco.png") no-repeat 50% 30%;
+}
+.bullet-points .office {
+    background: url("img/icon-office.png") no-repeat 50% 12%;
+}
+.bullet-points .dofe {
+    background: url("img/icon-dofe.png") no-repeat 50% 14%;
+}
+.bullet-points .guitar {
+    background: url("img/icon-guitar.png") no-repeat 0% 17%;
+}
+.bullet-points .placement {
+    background: url("img/icon-placement.png") no-repeat 50% 0%;
+}
+.bullet-points .iet {
+    background: url("img/icon-iet.png") no-repeat 50% 23%;
+}
