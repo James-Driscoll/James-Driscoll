@@ -45,6 +45,25 @@ body {
 a {
     text-decoration: none;
 }
+.bullet-points {
+    padding-left: 0px;
+    text-align: center;
+}
+.bullet-points li {
+    display: inline-block;
+    padding: 25px;
+    margin-left: 0px;
+    height: 150px;
+    line-height: 250px;
+}
+.section-title {
+    font-size: 80px;
+    color: #637076;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
 /* ==Sticky Header Items================================================== */
 .row {
     width: 100%;  
@@ -78,22 +97,18 @@ a {
   top: -100px;
   padding-bottom: 6px;
 }
-
- 
 .open-nav {
   max-height: 400px !important;
 }
 .open-nav .mobile-toggle {
   transform: rotate(-90deg);
 }
- 
 .sticky {
   background-color: rgba(255, 255, 255, 0.93);
   opacity: 1;
   top: 0px;
   border-bottom: 1px solid silver;
 }
- 
 .logo {
   width: 170px;
   font-size: 25px;
@@ -105,26 +120,21 @@ a {
   line-height: 1;
   margin-bottom: 10px;
 }
-
- 
 nav {
   float: right;
   width: 60%;
 }
-
 nav ul {
   list-style: none;
   overflow: hidden;
   text-align: right;
   float: right;
 }
-
 nav ul li {
   display: inline-block;
   margin-left: 35px;
   line-height: 1.5;
 }
-
 nav ul a {
   color: #888888;
   text-transform: uppercase;
@@ -148,7 +158,6 @@ nav ul a.active {
   width: 30px;
   transition: all 200ms ease-in;
 }
-
 .mobile-toggle span {
   width: 30px;
   height: 4px;
@@ -184,7 +193,6 @@ nav ul a.active {
   animation-iteration-count: infinite;
   animation-name: scroll;
 }
- 
 @keyframes scroll {
   0% {
     opacity: 1;
@@ -326,4 +334,87 @@ nav ul a.active {
 #hero .contact li a:hover {
     text-decoration: underline;
     color: #328127;
+}
+
+/* ==Skills Section Items================================================= */
+.skills {
+    width: 100%;
+}
+.skills .skill-list {
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 0px;
+}
+.skills .skill-list .whole-bar {
+    height: 37px;
+    width: 100%;
+    background-color: #DBDEE3;
+    margin-bottom: 37px;
+    transition: all .1s ease-in;
+    -moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    -ms-transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+}
+.skills .skill-list .bar {
+    height: 37px;
+    float: left;
+    font-family: "Lato" "Trebuchet MS" "Arial";
+    font-size: 14px;
+    color: #FFF;
+    font-weight: normal;
+    margin: 0px;
+    line-height: 38px;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+.skills .skill-list .whole-bar:hover {
+    opacity: 0.8;
+    transition: all .1s ease-in;
+    -moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    -ms-transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+}
+.skills .skill-list .grey {
+    background-color: #637076;
+    height: 37px;
+    width: 324px;
+}
+.skill-list .colour {
+    background-color: #669D2C;
+    height: 37px;
+    width: 324px;
+}
+
+/* --Skill Box Percentages------------- */
+.skills .skill-list .skill-pm {
+    width: 70%
+}
+.skills .skill-list .skill-html {
+    width: 60%;
+}
+.skills .skill-list .skill-css {
+    width: 55%;
+}
+.skills .skill-list .skill-require {
+    width: 65%;
+}
+.skills .skill-list .skill-sql {
+    width: 50%;
+}
+.skills .skill-list .skill-php {
+    width: 35%;
+}
+.skills .skill-list .skill-net {
+    width: 50%;
+}
+.skills .skill-list .skill-email {
+    width: 60%;
+}
+.skills .skill-list .skill-oo {
+    width: 55%;
+}
+.skills .skill-list .skill-office {
+    width: 65%;
 }
