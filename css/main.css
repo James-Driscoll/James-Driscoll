@@ -39,10 +39,12 @@ body {
 .container {
     width: 1200px;
     margin: 0px auto;
-    padding-top: 100px;
+    padding-top: 0px;
     padding-bottom: 100px;
 }
-
+a {
+    text-decoration: none;
+}
 /* ==Sticky Header Items================================================== */
 .row {
     width: 100%;  
