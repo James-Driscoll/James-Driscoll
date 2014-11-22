@@ -528,3 +528,77 @@ nav ul a.active {
 .education .secondary .logo {
     margin-top: 0px;
 }
+
+/* ==Work Experience Section Items======================================== */
+.work .company .name {
+    height: 40px;
+    background: #DBDEE3;
+    color: #637076;
+    line-height: 40px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    padding-left: 30px;
+}
+.work .title-work {
+    width: 76%;
+    left: 225px;
+}
+.work .company {
+    clear: both;
+    margin-bottom: 60px;
+}
+.work .company .logo {
+    float: right;
+    margin-top: 30px;
+    position: relative;
+    width: 50%;
+}
+.work .company .logo img {
+    width: 100%;
+}
+.work .company .logo img:hover {
+    opacity: 0.8;
+}
+.work .company .box {
+    width: 100%;
+    background-color: #669D2C;
+    color: #FFF;
+    font-family: "Lato" "Trebuchet MS";
+    font-size: 14px;  
+    text-align: center;
+    line-height: 37px; 
+    margin: 0px;
+    font-weight: normal;
+    display: block;
+    margin-top: 30px;
+}
+.work .company .details {
+    float: left;
+    width: 40%;
+}
+.work .description {
+    clear: both;
+    padding-top: 10px;
+    color: #637076;
+}
+.work .description .portfolio-list {
+
+}
+.work .description .portfolio-list a {
+    text-decoration: none;
+    color: #637076;
+}
+.work .description .portfolio-list a:hover {
+    text-decoration: underline;
+    color: #777;
+    opacity: 0.8;
+}
+.work .description .portfolio-list span a {
+    display: block;
+    margin-bottom: 15px;
+    padding-left: 40px;
+    line-height: 32px;
+}
+.work .description .portfolio-list span .git-link {
+    background: url("img/icon-github.png") no-repeat 0% 50%;
+}
