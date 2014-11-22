@@ -63,6 +63,9 @@ a {
     margin-top: 0;
     margin-bottom: 10px;
 }
+.colour {
+    background: #669D2C;
+}
 
 /* ==Sticky Header Items================================================== */
 .row {
@@ -79,9 +82,6 @@ a {
 }
 .sticky_header .row .content {
     padding: 0;
-}
-.colour {
-    background:#333;
 }
 .sticky_header {
   position: fixed;
@@ -422,7 +422,6 @@ nav ul a.active {
 /* ==Education Section Items============================================== */
 .education {
     width: 100%;
-    background: #669D2C;
     color: #DBDEE3;
 }
 .education .section-title{
