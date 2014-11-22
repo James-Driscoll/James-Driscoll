@@ -27,7 +27,7 @@ $('.sticky_header li a').click(function() {
 // navigation scroll
 $('nav a').click(function(event) {
     var id = $(this).attr("href");
-    var offset = 0;
+    var offset = 70;
     var target = $(id).offset().top - offset;
     $('html, body').animate({
         scrollTop: target
