@@ -122,7 +122,7 @@ a {
 }
 nav {
   float: right;
-  width: 60%;
+  width: 70%;
 }
 nav ul {
   list-style: none;
@@ -606,7 +606,6 @@ nav ul a.active {
 /* ==Achievements Section Items=========================================== */
 .achievements {
     width: 100%;
-    background: #669D2C;
     color: #DBDEE3;
 }
 .achievements .section-title{
@@ -632,4 +631,63 @@ nav ul a.active {
 }
 .bullet-points .iet {
     background: url("img/icon-iet.png") no-repeat 50% 23%;
+}
+
+/* ==Interests Section Items============================================== */
+.interests {
+    color: #637076;
+}
+.bullet-points .squash {
+    background: url("img/icon-squash.png") no-repeat 24% 14%;
+}
+.bullet-points .exercise {
+    background: url("img/icon-exercise.png") no-repeat 50% 20%;
+}
+.bullet-points .tech {
+    background: url("img/icon-tech.png") no-repeat 50% 7%;
+}
+.bullet-points .business {
+    background: url("img/icon-business.png") no-repeat 50% 13%;
+}
+.bullet-points .drive {
+    background: url("img/icon-drive.png") no-repeat 50% 18%;
+}
+.bullet-points .webdev {
+    background: url("img/icon-webdev.png") no-repeat 50% 20%;
+}
+.bullet-points .problem {
+    background: url("img/icon-problem.png") no-repeat 50% 0%;
+}
+.bullet-points .world {
+    background: url("img/icon-world.png") no-repeat 50% 7%;
+}
+
+/* ==Footer Items========================================================= */
+.footer {
+    clear: both;
+    width: 100%;
+    height: 150px;
+    background: #F5F5F5;
+    color: #637076;
+}
+.footer .container {
+    padding-top: 70px;
+    padding-bottom: 0;
+}
+.footer a {
+    color: #669D2C;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: "Lato", "Trebuchet MS";
+}
+.footer .email {
+    float: left;
+}
+.footer a:hover {
+    text-decoration: underline;
+    color: #328127;
+}
+.footer .author {
+    float: right;
+    margin-top: 0;
 }
