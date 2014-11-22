@@ -418,3 +418,114 @@ nav ul a.active {
 .skills .skill-list .skill-office {
     width: 65%;
 }
+
+/* ==Education Section Items============================================== */
+.education {
+    width: 100%;
+    background: #669D2C;
+    color: #DBDEE3;
+}
+.education .section-title{
+    color: #DBDEE3;
+}
+/* --Details Items--------------------- */
+.education .details {
+    height: 40px;
+    background: #DBDEE3;
+    color: #637076;
+    line-height: 40px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.education .details .level {
+    float: left;
+    display: block;
+    clear: both;
+    padding-left: 30px;
+    margin: 0;
+    font-weight: normal;
+    font-size: 15px;
+}
+.education .details .date {
+    float: right;
+    padding-right: 30px;
+    font-size: 15px;  
+}
+/* --Logo Items----------------------------------- */
+.education .logo {
+    float: right;
+    margin-top: 30px;
+    position: relative;
+    width: 40%;
+}
+.education .logo img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.education .logo:hover {
+    opacity: 0.8;
+}
+
+/* --Degree Items--------------------------------- */
+/* --Section-Details Items------------- */
+.education .section-details {
+    float: left;
+}
+.education .course {
+    clear: both;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 0px;  
+    margin-bottom: 8px;  
+}
+.education .course span {
+    font-size: 20px;
+}
+.education .course-year {
+    display: block;
+}
+.education .modules {
+    list-style: none;
+    font-size: 15px;
+    margin-top: 0px;
+    padding-left: 30px;
+}
+.education #placement {
+    margin-bottom: 15px;
+}
+.education .degree .logo {
+    margin-top: 100px;
+}
+
+/* --A-Levels Items------------------------------- */
+.education .a-level {
+    padding-top: 40px;
+    clear: both;
+}
+.education .a-level .details {
+    margin-bottom: 0px;
+}
+.education .a-level .logo {
+    margin-top: 25px;
+}
+.education .a-level #a-levels {
+    margin-top: 30px;
+}
+
+/* --Secondary Items------------------------------- */
+.education .secondary {
+    clear: both;
+    padding-top: 40px;  
+}
+.education .secondary .modules {
+    width: 50%;
+}
+.education .secondary .logo {
+    position: relative;
+    margin-top: 0px;
+}
+.education .secondary .logo {
+    margin-top: 0px;
+}
