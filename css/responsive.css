@@ -14,11 +14,11 @@
 		width: 85%;
 	}
 	/* --Header Items------------------------------------------------------- */
-	.header .intro {
+	#hero .intro {
 		width: 30%;
 		margin-left: 2%;
 	}
-	.header .contact {
+	#hero .contact {
 		width: 38%;
 	}
 }
@@ -46,20 +46,20 @@
 		font-size: 70px;
 	}
 	/* --Header Items------------------------------------------------------- */
-	.header .title {
+	#hero .title {
 		float: left;
 		margin-top: 30px;
 	}
-	.header img.portrait {
+	#hero img.portrait {
 		float: right;
 		margin-top: 0px;
 	}
-	.header .intro {
+	#hero .intro {
 		width: 40%;
 		clear: both;
 		margin-top: 85px;
 	}
-	.header .contact {
+	#hero .contact {
 		width: 50%;
 		margin-top: 50px;
 	}
@@ -85,50 +85,50 @@
 		width: 98%;
 	}
 	/* --Header Items------------------------------------------------------- */
-	.header {
+	#hero {
 		height: 350px;
 	}
-	.header img.portrait {
+	#hero img.portrait {
 		margin-top: 0px;
 	}
-	.header .intro {
+	#hero .intro {
 		width: 50%;
 		margin-top: 25px;
 		margin-left: 0;	
 	}
-	.header .intro .intro-text {
+	#hero .intro .intro-text {
 		margin-top: 10px;
 	}
-	.header .intro .intro-doc-name {
+	#hero .intro .intro-doc-name {
 		margin-top: 20px;
 	}
-	.header .contact {
+	#hero .contact {
 		margin-top: 10px;
 	}
-	.header .contact li {
+	#hero .contact li {
 		height: 50px;
 	}	
-	.header .contact li a {
+	#hero .contact li a {
 		text-align: right;
 		height: 50px;
 		line-height: 50px;
 	}
-	.header .contact .email a {
+	#hero .contact .email a {
 		background: none;
 	}
-	.header .contact .git a {
+	#hero .contact .git a {
 		background: none;
 	}
-	.header .contact .linked a {
+	#hero .contact .linked a {
 		background: none;
 	}
-	.header .contact .email a:hover {
+	#hero .contact .email a:hover {
 		background: none;
 	}
-	.header .contact .git a:hover {
+	#hero .contact .git a:hover {
 		background: none;
 	}
-	.header .contact .linked a:hover {
+	#hero .contact .linked a:hover {
 		background: none;
 	}
 	/* --Education Items---------------------------------------------------- */
@@ -153,42 +153,42 @@
 			font-size: 50px;
 		}
 	/* --Header Items------------------------------------------------------- */
-	.header {
+	#hero {
 		background: none;
 	}
-	.header img.portrait {
+	#hero img.portrait {
 		float: left;
 		clear: both;
 	}
-	.header .title {
+	#hero .title {
 		padding-top: 0px;
 		margin-top: 0px;
 		margin-bottom: 5px;
 		text-align: center;
 		float: none;
 	}
-	.header img.portrait {
+	#hero img.portrait {
 		float: none;
 		display: block;
 	    margin-left: auto;
 	    margin-right: auto	
 	}
-	.header .intro {
+	#hero .intro {
 		display: block;
 		float: none;
 		width: 100%;
 		margin: 10px 0px 0px 0px;
 	}
-	.header .intro .intro-doc-name {
+	#hero .intro .intro-doc-name {
 		display: none;
 	}
-	.header .contact {
+	#hero .contact {
 		width: 100%;
 	}
-	.header .contact li {
+	#hero .contact li {
 		height: 30px;
 	}
-	.header .contact li a {
+	#hero .contact li a {
 		height: 30px;
 		line-height: 30px;
 		text-align: center;	
