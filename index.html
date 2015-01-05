@@ -12,12 +12,12 @@
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/responsive.css">
-
-        <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <link href='http://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
@@ -28,277 +28,62 @@
     <body>      
 
         <!-- Header Section Begins Here -->
-        <div class="header">
-            <div class="container">
-                <h1 class="title">
-                    <a href="http://jamesdriscoll.london">James Driscoll</a>
-                </h1>
-                <img class="portrait" height="150" width="152" src="img/portrait.jpg" alt="Portrait Image">
-                <div class="intro">
-                    <strong class="intro-job-title">BSc Computing Student</strong>
-                    <span class="intro-text">I am a dedicated individual with a strong interest in modern technology and how it can be applied and uitilised in business.</span>
-                    <h4 class="intro-doc-name">Curriculum Vitae</h4>
-                </div>
-                <ul class="contact">
-                    <li class="email">
-                        <a href="mailto:getintouch@jamesdriscoll.london">getintouch@jamesdriscoll.london</a>
-                    </li>
-                    <li class="linked">
-                        <a href="http://uk.linkedin.com/pub/james-driscoll/5a/19/40b/" target="_blank">LinkedIn</a>
-                    </li>
-                    <li class="git">
-                        <a href="https://github.com/James-Driscoll" target="_blank">GitHub</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+
         <!-- Header Section Ends Here -->
 
-
-        <!-- Skills Section Begins Here -->
-        <div class="skills">
-            <div class="container">
-                <h2 class="section-title">skills</h2>
-                <ul class="skill-list">
-                    <li class="whole-bar"><h3 class="bar grey skill-pm">Project Management</h3></li>
-                    <li class="whole-bar"><h3 class="bar colour skill-html">HTML</h3></li>
-                    <li class="whole-bar"><h3 class="bar grey skill-css">CSS</h3></li>
-                    <li class="whole-bar"><h3 class="bar colour skill-require">Requirements Engineering</h3></li>
-                    <li class="whole-bar"><h3 class="bar grey skill-sql">SQL</h3></li>
-                    <li class="whole-bar"><h3 class="bar colour skill-php">PHP</h3></li>
-                    <li class="whole-bar"><h3 class="bar grey skill-net">Networking</h3></li>
-                    <li class="whole-bar"><h3 class="bar colour skill-email">Email Marketing</h3></li>
-                    <li class="whole-bar"><h3 class="bar grey skill-oo">Object Oriented</h3></li>
-                    <li class="whole-bar"><h3 class="bar colour skill-office">Office</h3></li>
-                </ul>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">
+                <img alt="Portait Image" height="80" width="80" src="img/portrait.jpg">
+                <span>James Driscoll</span>
+              </a>
             </div>
-        </div>
-        <!-- Skills Section Ends Here -->
 
-        <!-- Education Section Begins Here -->
-        <div class="education">
-            <div class="container">
-                <h2 class="section-title">education</h2>
-                
-                <!-- Degree Details Section Starts Here -->
-                <div class="degree">
-                    <div class="details">
-                        <h3 class="level">UNIVERSITY DEGREE</h3>
-                        <span class="date">SEP 2011 - PRESENT</span>
-                    </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Top<span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Educations</a></li>
+                <li><a href="#">Work Experience</a></li>
+                <li><a href="#">Achievements</a></li>
+                <li><a href="#">Interests</a></li>
+              </ul>
 
-                    <a class="logo" href="http://www.shu.ac.uk/" target="_blank">
-                        <img src="img/logo-shu.png" alt="Sheffield Hallam University logo">
-                    </a>
-                    <div class="section-details">
-                        <h3 class="course"><span>BSc Computing</span></h3>
-                        <span class="course-year">4th Year: <strong>Final - current</strong></span>
-                        <ul class="modules">
-                            <li>Data Warehousing &amp; Data Mining</li>
-                            <li>Architectures For Enterprise Applications</li>
-                            <li>Andvanced Web Applications</li>
-                            <li>Management Of IT Services &amp; Security</li>
-                        </ul>
-                        <span class="course-year" id="placement">3rd Year: <strong>Teradata Placement - Project Manager</strong></span>
-                        <span class="course-year">2nd Year Modules: <strong>76%</strong></span>
-                        <ul class="modules">
-                            <li>Object Oriented Analysis, Design &amp; Implementation - <strong>95%</strong></li>
-                            <li>Cisco CCNA Network Fundamentals - <strong>78%</strong></li>
-                            <li>Web Architectures - <strong>78%</strong></li>
-                            <li>Database Systems - <strong>69%</strong></li>
-                            <li>E-Business - <strong>69%</strong></li>
-                            <li>Project Management &amp; Career Development - <strong>68%</strong></li>
-                        </ul>
-                        <span class="course-year">1st Year Modules: <strong>76%</strong></span>
-                        <ul class="modules">
-                            <li>Programming for Computing - <strong>90%</strong></li>
-                            <li>Cisco Technology Essentials - <strong>83%</strong></li>
-                            <li>Mathematics for Computing - <strong>81%</strong></li>
-                            <li>Information Systems - <strong>70%</strong></li>
-                            <li>Web Design &amp; Development  - <strong>68%</strong></li>
-                            <li>Professionalism &amp; Communication Skills - <strong>64%</strong></li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Degree Details Section Ends Here -->
+              <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <button type="button" class="btn btn-default btn-lg">
+                    <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> Top
+                  </button>
+                </li>
+              </ul>
 
-                <!-- A-Levels Details Section Starts Here -->
-                <div class="a-level">
-                    <div class="details">
-                        <h3 class="level">A-LEVELS</h3>
-                        <span class="date">SEP 2009 - JUL 2011</span>
-                    </div>
-                    <a class="logo" href="http://www.ccs.northants.sch.uk/" target="_blank">
-                        <img height="243" width="476" src="img/logo-ccs.png" alt="Caroline Chisholm School logo">   
-                    </a>
-                    <span class="course-year" id="a-levels">A Level:</span>
-                    <ul class="modules">
-                        <li>Mathematics</li>
-                        <li>Computing</li>
-                        <li>Business Studies</li>
-                    </ul>
-                    <span class="course-year">AS Level</span>
-                    <ul class="modules">
-                        <li>Physics</li>
-                    </ul>
-                </div>
-                <!-- A-Levels Details Section Ends Here -->
-                
-                <!-- GCSE Details Section Starts Here -->
-                <div class="secondary">
-                    <div class="details">
-                        <h3 class="level">GCSE</h3>
-                        <span class="date">SEP 2005 - JUL 2009</span>
-                    </div>
-                    <a class="logo" href="http://www.sponne.org.uk/" target="_blank">
-                        <img src="img/logo-sponne.png" alt="Sponne School logo">
-                    </a>  
-                    <ul class="modules">
-                        <li>12 x <strong>A* - C</strong> GCSE’s awarded including Mathematics and English.</li>
-                    </ul>
-                </div>
-                <!-- GCSE Details Section Ends Here -->
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container -->
+        </nav>
 
+<div class="row">
+     <div class="container">
+          <div class="row">
+          <div class="col-md-12">
+            <div class="page-header">
+              <h1>Examdddple page header <small>Subtext for header</small></h1>
             </div>
+          </div>
+          </div>
         </div>
-        <!-- Education Section Ends Here -->
-
-        <!-- Work Experience Section Begins Here -->
-        <div class="work">
-            <div class="container">
-                <h2 class="section-title">work experience</h2>
-                
-                <!-- Teradata Details Section Begins Here -->
-                <div class="company">
-                    <h3 class="name">TERADATA</h3>             
-                    <a class="logo" href="http://www.teradata.co.uk/" target="_blank">
-                        <img src="img/logo-teradata.png">
-                    </a>
-                    <div class="details">
-                        <h4 class="box role">PROJECT MANAGEMENT ASSISTANT</h4>
-                        <h4 class="box date">JUL 2013 - JUL 2014</h4>
-                    </div>
-                    <div class="description">
-                        <p>I worked for Teradata for twelve months during the placement year of my sandwich degree course. The role of project manager allowed me to experience great exposure to the different departments of the business and how a product or service moves through them. The placement has allowed me to significantly develop my skills in communication, time and workload management, and teamwork. I have learnt first-hand the importance of:</p>
-                        <ul class="desc-list">
-                            <li>Accurate project scoping</li>
-                            <li>Strong client relationships and interaction</li>
-                            <li>Expectation management</li>
-                            <li>Resource management</li>
-                        </ul>
-                        <p>I was also able experience and understand how different project managerial styles such as PRINCE2 and AGILE can offer both advantages and disadvantages to different scales of projects.</p>
-                        <p>A brief outline of my daily tasks, achievements and responsibilities whilst working at Teradata:</p>
-                        <ul class="desc-list">
-                            <li>Responsible for managing projects from initiation through to go live and review.</li>
-                            <li>Simultaneously managed numerous projects for multiple enterprise level clients.</li>
-                            <li>Independently led client training sessions detailing the use of software as a service packages.</li>
-                            <li>Offered advice and recommendations for clients to most effectively achieve their goals.</li>
-                            <li>Monitored, reviewed and improved live systems after project deployment.</li>
-                            <li>Effectively managed client expectations by accurately scoping project timelines and task durations, taking into account workload and available resource factors.</li>
-                            <li>Demonstrated swift problem identification and resolution.</li>
-                            <li>Ensured technical business as usual tasks operated correctly and efficiently.</li>
-                            <li>Gained accurate knowledge of the capabilities of the email marketing software platform.</li>
-                            <li>Briefed technical instructions to development teams including custom integration scripts, web platforms and highly dynamic and responsive email solutions</li>
-                            <li>Strong understanding of how data was captured within the system and how it needs to be stored, maintained and can be output.</li>
-                            <li>Led internal and client meetings/conference calls in order to discuss project progress and next steps.</li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Teradata Details Section Ends Here -->
-
-                <!-- NHS Details Section Begins Here -->
-                <div class="company">
-                    <h3 class="name">NHS</h3>             
-                    <a class="logo" href="http://www.northamptongeneral.nhs.uk/" target="_blank">
-                        <img src="img/logo-nhs.svg">
-                    </a>
-                    <div class="details">
-                        <h4 class="box role">PROJECT MANAGEMENT ASSISTANT</h4>
-                        <h4 class="box date">JUL 2013 - PRESENT</h4>
-                    </div>
-                    <div class="description">
-                        <p>I worked at Northampton General Hospital part time for three years. Each shift I was responsible for managing a ward’s food and beverages. The role required to communicate with patients to offer different foods and work out what variety of meals a patient would like to eat, as well as at the same time taking into account special dietary requirements of the individual.<br /><br /> During my time at NGH, the Trust has offered training opportunities to me in order to increase my working performance and knowledge. I have completed training courses in Conflict Resolution, Infection Control and Ethnicity &amp; Diversity.</p>
-                    </div>
-                </div>
-                <!-- NHS Details Section Ends Here -->
-
-                <!-- Freelance Details Section Begins Here -->
-                <div class="company">
-                    <h3 class="name">Freelance</h3>             
-                    <div class="logo">
-                        <img src="img/logo-freelance.jpg">
-                    </div   >
-                    <div class="details">
-                        <h4 class="box role">WEB DEVELOPER</h4>
-                        <h4 class="box date">JUL 2013 - PRESENT</h4>
-                    </div>
-                    <div class="description">
-                        <p>In my spare time I have been working on various web development projects. My experience covers both front-end sites using modern HTML and CSS3 techniques, as well as working with CMS tools such as Wordpress and Drupal in order to create a fully customisable and editable theme.</p>
-                        <span>A small selection of portfolio websites designed and developed by me:
-                        <ul class="portfolio-list">
-                            <li class="tla">
-                                <a href="http://art.thomasline.uk" target="_blank">Thomas Line Art - http://art.thomasline.uk (currently under construction)</a>
-                                <span><a class="git-link" href="https://github.com/James-Driscoll/ThomasLineArt.git" target="_blank">Check out the GitHub project.</a></span>
-                            </li>
-                            <li class="jd">
-                                <a href="http://jamesdriscoll.london" target="_blank">James Driscoll Digital CV - http://jamesdriscoll.london</a>
-                                <span><a class="git-link" href="https://github.com/James-Driscoll/James-Driscoll.git" target="_blank">Check out the GitHub project.</a></span>
-                            </li>
-                            <li class="csp">
-                                <a href="http://colinsanders.photography" target="_blank">Colin Sanders Photography - http://colinsanders.photography (currently under construction)</a>
-                                <span><a class="git-link" href="https://github.com/James-Driscoll/ColinSandersPhotography.git" target="_blank">Check out the GitHub project.</a></span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Freelance Details Section Ends Here -->
-
-            </div>
         </div>
-        <!-- Work Experience Section Ends Here -->
 
-        <!-- Achievements Section Begins Here -->
-        <div class="achievements">
-            <div class="container">
-                <h2 class="section-title">achievements</h2>
-                    <ul class="bullet-points">
-                        <li class="cisco">Cisco Accreditation</li>
-                        <li class="office">Microsoft Certification</li>
-                        <li class="dofe">Duke of Edinburgh's Award</li>
-                        <li class="guitar">Guitar</li>
-                        <li class="placement">Work Placement</li>
-                        <li class="iet">Member of IET</li>
-                    </ul>
-            </div>
-        </div>
-        <!-- Achievements Section Ends Here -->
 
-        <!-- Interests Section Begins Here -->
-        <div class="interests">
-            <div class="container">
-                <h2 class="section-title">interests</h2>
-                <ul class="bullet-points">
-                    <li class="squash">Squash</li>
-                    <li class="exercise">Exercise &amp; Gym</li>
-                    <li class="tech">Technology</li>
-                    <li class="business">Business</li>
-                    <li class="drive">Driving</li>
-                    <li class="webdev">Web Development</li>
-                    <li class="problem">Problem Solving</li>
-                    <li class="world">World Affairs</li>
-                </ul>
-            </div>
-        </div>
-        <!-- Interests Section Ends Here -->
 
-        <!-- Footer Section Begins Here -->
-        <div class="footer">
-            <div class="container">
-                <a class="email" href="mailto:getintouch@jamesdriscoll.london">getintouch@jamesdriscoll.london</a>
-                <h5 class="author">Site designed and developed by me.</h5>
-            </div>
-        </div>
-        <!-- Footer Section Ends Here -->       
 
         <!-- Site Ends Here --> 
 
