@@ -23,10 +23,9 @@
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
           <!-- Optional theme -->
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-          <!-- Latest compiled and minified JavaScript -->
-          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
         
         <!-- Custom -->
+        <link href="css/scrolling-nav.css" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/responsive.css">
 
@@ -36,46 +35,37 @@
     </head>
 
     <!-- Site Begins Here -->
-    <body>      
+    <body id="page-top">      
 
       <!-- Header Section Begins Here -->
-      <nav class="navbar navbar-default navbar-static-top">
+      <!-- Start of navigation bar -->
+      <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
           
-          <div class="navbar-header">
+          <div class="navbar-header page-scroll">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">
-              <span>James Driscoll</span>
-            </a>
+            <a class="navbar-brand" href="http://jamesdriscoll.london">James Driscoll</a>
           </div>
 
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Top<span class="sr-only">(current)</span></a></li>
-              <li><a href="#">Skills</a></li>
-              <li><a href="#">Educations</a></li>
-              <li><a href="#">Work Experience</a></li>
-              <li><a href="#">Achievements</a></li>
-              <li><a href="#">Interests</a></li>
+              <li class="active"><a class="page-scroll" href="#page-top">Top<span class="sr-only">(current)</span></a></li>
+              <li><a class="page-scroll" href="#skills">Skills</a></li>
+              <li><a class="page-scroll" href="#education">Education</a></li>
+              <li><a class="page-scroll" href="#workexperience">Work Experience</a></li>
+              <li><a class="page-scroll" href="#achievements">Achievements</a></li>
+              <li><a class="page-scroll" href="#interests">Interests</a></li>
             </ul>
 
-            <ul class="nav navbar-nav navbar-right">
-              <li>
-                <button type="button" class="btn btn-default btn-lg">
-                  <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span> Top
-                </button>
-              </li>
-            </ul>
-
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container -->
+          </div>
+        </div>
       </nav>
+      <!-- End of navigation bar -->
 
       <div class="jumbotron">
         <div class="container">
@@ -85,178 +75,222 @@
       </div>
 
       <!-- Skills Section Begins Here -->
-      <div class="row">
-        <div class="container text-center col-md-12">
-          <h1>Skills</h1>
+      <div id="skills">
+        <div class="row">
+          <div class="container text-center col-md-12">
+            <i><span style="font-size: 140px;" class="glyphicon glyphicon-tags"></span></i>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="container text-center col-md-12">
-          <i><span style="font-size: 140px;" class="glyphicon glyphicon-tags"></span></i>
+        <div class="row">
+          <div class="container text-center col-md-12">
+            <h1>Skills</h1>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="container">
-          <ul class="list-group text-uppercase">
-            <li class="list-group-item">Project Management</li>
-            <li class="list-group-item">HTML / CSS</li>
-            <li class="list-group-item">Requirements Gathering</li>
-            <li class="list-group-item">C# / PHP</li>
-            <li class="list-group-item">Networking</li>
-            <li class="list-group-item">Email Marketing</li>
-            <li class="list-group-item">Object Oriented Programming</li>
-            <li class="list-group-item">Office Applications</li>
-            <li class="list-group-item">Wordpress</li>
-            <li class="list-group-item">Bootstrap</li>
-          </ul>
+
+        <div class="row">
+          <div class="container">
+            <ul class="list-group text-uppercase">
+              <li class="list-group-item">Project Management</li>
+              <li class="list-group-item">HTML / CSS</li>
+              <li class="list-group-item">Requirements Gathering</li>
+              <li class="list-group-item">C# / PHP</li>
+              <li class="list-group-item">Networking</li>
+              <li class="list-group-item">Email Marketing</li>
+              <li class="list-group-item">Object Oriented Programming</li>
+              <li class="list-group-item">Office Applications</li>
+              <li class="list-group-item">Wordpress</li>
+              <li class="list-group-item">Bootstrap</li>
+            </ul>
+          </div>
         </div>
       </div>
       <!-- Skills Section Ends Here -->
 
       <!-- Education Section Begins Here -->
-      <div>
-
-      <div class="row">
-        <div class="container text-center col-md-12">
-          <h1>Education</h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="container text-center col-md-12">
-          <i><span style="font-size: 200px;" class="glyphicon glyphicon-education"></span></i>
-        </div>
-      </div>
-
-      <!-- Degree Section Starts -->
-      <div>
+      <div id="education">
         <div class="row">
-          <div class="container text-center">
-            <div class="panel panel-default">
-              <div class="panel-body">
-                <h2 class="panel-title">University Degree</h2>
-              </div>
-            </div>
-            <div class="col-xs-12">
-              <h4>BSc Computing</h4>
-            </div>
+          <div class="container text-center col-md-12">
+            <i><span style="font-size: 200px;" class="glyphicon glyphicon-education"></span></i>
+          </div>
+        </div>
+        <div class="row">
+          <div class="container text-center col-md-12">
+            <h1>Education</h1>
           </div>
         </div>
 
-        <div class="row">
-          <div class="container text-center">
-            <!-- Final Year -->
-            <div class="col-md-6">
-            <h3>4th Year Modules - Final (current)</h3>
-              <ul class="list-group">
-                <li class="list-group-item">Data Warehousing &amp; Data Mining</li>
-                <li class="list-group-item">Architectures For Enterprise Applications</li>
-                <li class="list-group-item">Andvanced Web Applications</li>
-                <li class="list-group-item">Management Of IT Services &amp; Security</li>
-              </ul>
-            </div>
-            <!-- 3rd Year -->
-            <div class="col-md-6">
-              <h3>3rd Year</h3>
-              <ul class="list-group">
-                <li class="list-group-item">Work Placement at Teradata</li>
-                <li class="list-group-item"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span>Project Management Assistant</li>
-                <li class="list-group-item"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>London</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="container text-center">
-            <!-- 2nd Year -->
-            <div class="col-md-6">
-              <h3>2nd Year Modules</h3>
-              <ul class="list-group text-left">
-                <li class="list-group-item">Object Oriented Analysis, Design &amp; Implementation<strong class="pull-right">95%</strong></li>
-                <li class="list-group-item">Cisco CCNA Network Fundamentals<strong class="pull-right">78%</strong></li>
-                <li class="list-group-item">Web Architectures<strong class="pull-right">78%</strong></li>
-                <li class="list-group-item">Database Systems<strong class="pull-right">69%</strong></li>
-                <li class="list-group-item">E-Business<strong class="pull-right">69%</strong></li>
-                <li class="list-group-item">Project Management &amp; Career Development<strong class="pull-right">68%</strong></li>
-              </ul>
-            </div>
-            <!-- 1st Year -->
-            <div class="col-md-6">
-              <h3>1st Year Modules</h3>
-              <ul class="list-group text-left">
-                <li class="list-group-item">Programming for Computing<strong class="pull-right">90%</strong></li>
-                <li class="list-group-item">Cisco Technology Essentials<strong class="pull-right">83%</strong></li>
-                <li class="list-group-item">Mathematics for Computing<strong class="pull-right">81%</strong></li>
-                <li class="list-group-item">Information Systems<strong class="pull-right">70%</strong></li>
-                <li class="list-group-item">Web Design &amp; Development<strong class="pull-right">68%</strong></li>
-                <li class="list-group-item">Professionalism &amp; Communication Skills<strong class="pull-right">64%</strong></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <!-- Degree Section Ends -->
-
-      <!-- A Levels & GCSE Section Starts -->
-      <div>
-        <div class="row">
-          <div class="container text-center">
-            <!-- A Level Section Starts -->
-            <div class="col-md-4 col-md-offset-1">
+        <!-- Degree Section Starts -->
+        <div>
+          <div class="row">
+            <div class="container text-center">
               <div class="panel panel-default">
                 <div class="panel-body">
-                  <h2 class="panel-title">A-Level</h2>
+                  <h2 class="panel-title">University Degree</h2>
                 </div>
               </div>
-              <h3>A Level</h3>
-              <ul class="list-group">
-                <li class="list-group-item">Mathematics</li>
-                <li class="list-group-item">Computing</li>
-                <li class="list-group-item">Business Studies</li>
-              </ul>
-              <h3>AS Level</h3>
-              <ul class="list-group">
-                <li class="list-group-item">Physics</li>
-              </ul>
-            </div>
-            <!-- A Level Section Ends -->
-            <!-- GCSE Section Starts -->
-            <div class="col-md-4 col-md-offset-1">
-              <div class="panel panel-default">
-                <div class="panel-body">
-                  <h2 class="panel-title">GCSE</h2>
-                </div>
+              <div class="col-xs-12">
+                <h4>BSc Computing</h4>
               </div>
-              <h3>12 x A* - C GCSE’s awarded including Mathematics and English.</h3>
-            </div>
-            <!-- GCSE Section Ends -->
-            <div class="col-xs-12">
-
-              <h4>A Level</h4>
             </div>
           </div>
+
+          <div class="row">
+            <div class="container text-center">
+              <!-- Final Year -->
+              <div class="col-md-6">
+              <h3>4th Year Modules - Final (current)</h3>
+                <ul class="list-group">
+                  <li class="list-group-item">Data Warehousing &amp; Data Mining</li>
+                  <li class="list-group-item">Architectures For Enterprise Applications</li>
+                  <li class="list-group-item">Andvanced Web Applications</li>
+                  <li class="list-group-item">Management Of IT Services &amp; Security</li>
+                </ul>
+              </div>
+              <!-- 3rd Year -->
+              <div class="col-md-6">
+                <h3>3rd Year</h3>
+                <ul class="list-group">
+                  <li class="list-group-item">Work Placement at Teradata</li>
+                  <li class="list-group-item"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span>Project Management Assistant</li>
+                  <li class="list-group-item"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>London</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="container text-center">
+              <!-- 2nd Year -->
+              <div class="col-md-6">
+                <h3>2nd Year Modules</h3>
+                <ul class="list-group text-left">
+                  <li class="list-group-item">Object Oriented Analysis, Design &amp; Implementation<strong class="pull-right">95%</strong></li>
+                  <li class="list-group-item">Cisco CCNA Network Fundamentals<strong class="pull-right">78%</strong></li>
+                  <li class="list-group-item">Web Architectures<strong class="pull-right">78%</strong></li>
+                  <li class="list-group-item">Database Systems<strong class="pull-right">69%</strong></li>
+                  <li class="list-group-item">E-Business<strong class="pull-right">69%</strong></li>
+                  <li class="list-group-item">Project Management &amp; Career Development<strong class="pull-right">68%</strong></li>
+                </ul>
+              </div>
+              <!-- 1st Year -->
+              <div class="col-md-6">
+                <h3>1st Year Modules</h3>
+                <ul class="list-group text-left">
+                  <li class="list-group-item">Programming for Computing<strong class="pull-right">90%</strong></li>
+                  <li class="list-group-item">Cisco Technology Essentials<strong class="pull-right">83%</strong></li>
+                  <li class="list-group-item">Mathematics for Computing<strong class="pull-right">81%</strong></li>
+                  <li class="list-group-item">Information Systems<strong class="pull-right">70%</strong></li>
+                  <li class="list-group-item">Web Design &amp; Development<strong class="pull-right">68%</strong></li>
+                  <li class="list-group-item">Professionalism &amp; Communication Skills<strong class="pull-right">64%</strong></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
         </div>
+        <!-- Degree Section Ends -->
+
+        <!-- A Levels & GCSE Section Starts -->
+        <div>
+          <div class="row">
+            <div class="container text-center">
+              <!-- A Level Section Starts -->
+              <div class="col-md-4 col-md-offset-1">
+                <div class="panel panel-default">
+                  <div class="panel-body">
+                    <h2 class="panel-title">A-Level</h2>
+                  </div>
+                </div>
+                <h3>A Level</h3>
+                <ul class="list-group">
+                  <li class="list-group-item">Mathematics</li>
+                  <li class="list-group-item">Computing</li>
+                  <li class="list-group-item">Business Studies</li>
+                </ul>
+                <h3>AS Level</h3>
+                <ul class="list-group">
+                  <li class="list-group-item">Physics</li>
+                </ul>
+              </div>
+              <!-- A Level Section Ends -->
+              <!-- GCSE Section Starts -->
+              <div class="col-md-4 col-md-offset-2">
+                <div class="panel panel-default">
+                  <div class="panel-body">
+                    <h2 class="panel-title">GCSE</h2>
+                  </div>
+                </div>
+                <h3>12 x A* - C GCSE’s awarded including Mathematics and English.</h3>
+              </div>
+              <!-- GCSE Section Ends -->
+
+            </div>
+          </div>
         
-
     </div>
     <!-- Educations Section Ends Here -->
 
+    <!-- Work Experience Section Begins Here -->
+    <div id="workexperience"style="height:800px;">
+      <div class="row">
+        <div class="container text-center col-md-12">
+          <h1>Work Experience</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="container text-center col-md-12">
+          <i class="fa fa-university" style="font-size:100px;"></i>
+        </div>
+      </div>
+    </div>
+    <!-- Work Experience Section Ends Here -->
 
+    <!-- Achievements Section Begins Here -->
+    <div id="achievements"style="height:800px;">
+      <div class="row">
+        <div class="container text-center col-md-12">
+          <h1>Achievements</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="container text-center col-md-12">
+          <i class="fa fa-rocket" style="font-size:100px;"></i>
+        </div>
+      </div>
+    </div>
+    <!-- Achievementse Section Ends Here -->
 
+    <!-- Interests Section Begins Here -->
+    <div id="interests" style="height:800px;">
+      <div class="row">
+        <div class="container text-center col-md-12">
+          <h1>Interests</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="container text-center col-md-12">
+          <i class="fa fa-paper-plane" style="font-size:100px;"></i>
+        </div>
+      </div>
+    </div>
+    <!-- Interests Section Ends Here -->
 
-    <!-- Header Section Ends Here -->
 
 
         <!-- Site Ends Here --> 
 
         <script src="//ajax.googleapis.com/ajax/libs/qjuery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+        <!-- Scrolling Nav JavaScript -->
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/scrolling-nav.js"></script>
+
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-
-        <script src="js/bootstrap.min.js"></script>
-
 
         <!-- Google Analytics Begins Here -->
         <script>
