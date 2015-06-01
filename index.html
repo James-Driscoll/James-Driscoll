@@ -1,309 +1,166 @@
-    <!DOCTYPE html>
-    <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-    <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-    <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-    <!--[if gt IE 8]><!--> <html> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>James Driscoll - CV</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html lang="en">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        
-        <!-- Normalise -->
-        <link rel="stylesheet" href="css/normalize.css">
-        
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<head>
 
-        <!-- Bootstrap -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-        
-        <!-- Optional Bootstrap Theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-        
-        <!-- Custom Style-->
-        <link href="css/scrolling-nav.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        
-        <!-- Custom Fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-    </head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <!-- Site Begins Here -->
-    <body id="page-top">      
+    <title>James Driscoll - CV</title>
 
-        <!-- Header Section Begins Here -->
-        <!-- Start of navigation bar -->
-        <nav class="navbar navbar-default navbar-fixed-top">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    James Driscoll
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download">Download</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
             <div class="container">
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="http://jamesdriscoll.london">James Driscoll</a>
-                </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a class="page-scroll" href="#page-top">Top<span class="sr-only">(current)</span></a></li>
-                        <li><a class="page-scroll" href="#skills">Skills</a></li>
-                        <li><a class="page-scroll" href="#education">Education</a></li>
-                        <li><a class="page-scroll" href="#workexperience">Work Experience</a></li>
-                        <li><a class="page-scroll" href="#achievements">Achievements</a></li>
-                        <li><a class="page-scroll" href="#interests">Interests</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav pull-right">
-                        <li><a class="" href="mailto:getintouch@jamesdriscoll.london" target="_blank"><i style="font-size: 30px;" class="fa fa-envelope"></i></a></li>
-                        <li><a class="" href="https://github.com/James-Driscoll" target="_blank"><i style="font-size: 30px;" class="fa fa-github-square"></i></a></li>
-                        <li><a class="" href="http://uk.linkedin.com/in/jamesdriscollcv" target="_blank"><i style="font-size: 30px;" class="fa fa-linkedin-square"></i></a></li>
-                    </ul>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">James Driscoll</h1>
+                        <p class="intro-text">I am a dedicated individual with a strong interest in modern technology and how it can be applied and utilised in business.</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </nav>
-        <!-- End of navigation bar -->
+        </div>
+    </header>
 
-        <!-- Jumbotron Begins Here -->
-        <div class="jumbotron">
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About Grayscale</h2>
+                <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
+                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="content-section text-center">
+        <div class="download-section">
             <div class="container">
-                <h1 class="heading">James Driscoll</h1>
-                <p>Contact Details</p>
-            </div>
-        </div>
-        <!-- Jumbotron Ends Here -->
-
-        <!-- Skills Section Begins Here -->
-        <div id="skills">
-            <div class="row">
-                <div class="container text-center col-md-12">
-                    <i><span style="font-size: 140px;" class="glyphicon glyphicon-tags"></span></i>
-                </div>
-            </div>
-            <div class="row">
-                <div class="container text-center col-md-12">
-                    <h1>Skills</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="container">
-                    <ul class="list-group text-uppercase">
-                        <li class="list-group-item">Project Management</li>
-                        <li class="list-group-item">HTML / CSS</li>
-                        <li class="list-group-item">Requirements Gathering</li>
-                        <li class="list-group-item">C# / PHP</li>
-                        <li class="list-group-item">Networking</li>
-                        <li class="list-group-item">Email Marketing</li>
-                        <li class="list-group-item">Object Oriented Programming</li>
-                        <li class="list-group-item">Office Applications</li>
-                        <li class="list-group-item">Wordpress</li>
-                        <li class="list-group-item">Bootstrap</li>
-                  </ul>
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Download Grayscale</h2>
+                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
+                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
                 </div>
             </div>
         </div>
-        <!-- Skills Section Ends Here -->
+    </section>
 
-        <!-- Education Section Begins Here -->
-        <div id="education">
-            <div class="row">
-                <div class="container text-center col-md-12">
-                    <i><span style="font-size: 200px;" class="glyphicon glyphicon-education"></span></i>
-                </div>
-            </div>
-            <div class="row">
-                <div class="container text-center col-md-12">
-                    <h1>Education</h1>
-                </div>
-            </div>
-
-            <!-- Degree Section Starts -->
-            <div>
-                <div class="row">
-                  <div class="container text-center">
-                    <div class="panel panel-default">
-                      <div class="panel-body">
-                        <h2 class="panel-title">University Degree</h2>
-                      </div>
-                    </div>
-                    <div class="col-xs-12">
-                      <h4>BSc Computing</h4>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="row">
-                    <div class="container text-center">
-                        <!-- Final Year -->
-                        <div class="col-md-6">
-                            <h3>4th Year Modules - Final (current)</h3>
-                            <ul class="list-group">
-                                <li class="list-group-item">Data Warehousing &amp; Data Mining</li>
-                                <li class="list-group-item">Architectures For Enterprise Applications</li>
-                                <li class="list-group-item">Andvanced Web Applications</li>
-                                <li class="list-group-item">Management Of IT Services &amp; Security</li>
-                            </ul>
-                        </div>
-                                <!-- 3rd Year -->
-                        <div class="col-md-6">
-                            <h3>3rd Year</h3>
-                            <ul class="list-group">
-                                <li class="list-group-item">Work Placement at Teradata</li>
-                                <li class="list-group-item"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span>Project Management Assistant</li>
-                                <li class="list-group-item"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>London</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="container text-center">
-                        <!-- 2nd Year -->
-                        <div class="col-md-6">
-                            <h3>2nd Year Modules</h3>
-                            <ul class="list-group text-left">
-                                <li class="list-group-item">Object Oriented Analysis, Design &amp; Implementation<strong class="pull-right">95%</strong></li>
-                                <li class="list-group-item">Cisco CCNA Network Fundamentals<strong class="pull-right">78%</strong></li>
-                                <li class="list-group-item">Web Architectures<strong class="pull-right">78%</strong></li>
-                                <li class="list-group-item">Database Systems<strong class="pull-right">69%</strong></li>
-                                <li class="list-group-item">E-Business<strong class="pull-right">69%</strong></li>
-                                <li class="list-group-item">Project Management &amp; Career Development<strong class="pull-right">68%</strong></li>
-                            </ul>
-                        </div>
-                        <!-- 1st Year -->
-                        <div class="col-md-6">
-                            <h3>1st Year Modules</h3>
-                            <ul class="list-group text-left">
-                                <li class="list-group-item">Programming for Computing<strong class="pull-right">90%</strong></li>
-                                <li class="list-group-item">Cisco Technology Essentials<strong class="pull-right">83%</strong></li>
-                                <li class="list-group-item">Mathematics for Computing<strong class="pull-right">81%</strong></li>
-                                <li class="list-group-item">Information Systems<strong class="pull-right">70%</strong></li>
-                                <li class="list-group-item">Web Design &amp; Development<strong class="pull-right">68%</strong></li>
-                                <li class="list-group-item">Professionalism &amp; Communication Skills<strong class="pull-right">64%</strong></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-        </div>
-        <!-- Degree Section Ends -->
-
-        <!-- A Levels & GCSE Section Starts -->
-        <div>
-            <div class="row">
-                <div class="container text-center">
-                    <!-- A Level Section Starts -->
-                    <div class="col-md-4 col-md-offset-1">
-                        <div class="panel panel-default">
-                            <div class="panel-body">
-                                <h2 class="panel-title">A-Level</h2>
-                            </div>
-                        </div>
-                        <h3>A Level</h3>
-                        <ul class="list-group">
-                            <li class="list-group-item">Mathematics</li>
-                            <li class="list-group-item">Computing</li>
-                            <li class="list-group-item">Business Studies</li>
-                        </ul>
-                        <h3>AS Level</h3>
-                        <ul class="list-group">
-                            <li class="list-group-item">Physics</li>
-                        </ul>
-                    </div>
-                    <!-- A Level Section Ends -->
-                    <!-- GCSE Section Starts -->
-                    <div class="col-md-4 col-md-offset-2">
-                        <div class="panel panel-default">
-                            <div class="panel-body">
-                                <h2 class="panel-title">GCSE</h2>
-                            </div>
-                        </div>
-                        <h3>12 x A* - C GCSE’s awarded including Mathematics and English.</h3>
-                    </div>
-                    <!-- GCSE Section Ends -->
-                </div>
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact Start Bootstrap</h2>
+                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
+                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <!-- Educations Section Ends Here -->
+    </section>
 
-        <!-- Work Experience Section Begins Here -->
-        <div id="workexperience" style="height:800px; padding-top:50px;">
-            <div class="row">
-                <div class="container text-center col-md-12">
-                    <h1>Work Experience</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="container text-center col-md-12">
-                    <i class="fa fa-university" style="font-size:100px;"></i>
-                </div>
-            </div>
+    <!-- Map Section -->
+    <div id="map"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; jamesdriscoll.london 2014</p>
         </div>
-        <!-- Work Experience Section Ends Here -->
+    </footer>
 
-        <!-- Achievements Section Begins Here -->
-        <div id="achievements" style="height:800px; padding-top:50px;">
-            <div class="row">
-                <div class="container text-center col-md-12">
-                    <h1>Achievements</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="container text-center col-md-12">
-                    <i class="fa fa-rocket" style="font-size:100px;"></i>
-                </div>
-            </div>
-        </div>
-        <!-- Achievementse Section Ends Here -->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
-        <!-- Interests Section Begins Here -->
-        <div id="interests" style="height:800px; padding-top:50px;">
-            <div class="row">
-                <div class="container text-center col-md-12">
-                    <h1>Interests</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="container text-center col-md-12">
-                    <i class="fa fa-paper-plane" style="font-size:100px;"></i>
-                </div>
-            </div>
-        </div>
-        <!-- Interests Section Ends Here -->
-        <!-- Site Ends Here --> 
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
-        <!-- Site Scripts -->
-        <!-- Mondernizr -->
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
 
-        <!-- JQuery -->
-        <script src="//ajax.googleapis.com/ajax/libs/qjuery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        
-        <!-- Bootstrap -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
-        <!-- Scrolling Nav JavaScript -->
-        <script src="js/jquery.easing.min.js"></script>
-        <script src="js/scrolling-nav.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
 
-        <!-- Custom JS -->
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+</body>
 
-        <!-- Google Analytics Begins Here -->
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-48355532-1', 'james-driscoll.co.uk');
-            ga('send', 'pageview');
-        </script>
-        <!-- Google Analytics Ends Here -->
-
-    </body>
 </html>
