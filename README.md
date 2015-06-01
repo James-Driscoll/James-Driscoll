@@ -1,32 +1,26 @@
-# jamesdriscoll.london
+# [Start Bootstrap](http://startbootstrap.com/) - [Grayscale](http://startbootstrap.com/template-overviews/grayscale/)
 
-jamesdriscoll.london is a single page website to professionally describe my qualifications, work experience and interests. A digital CV.
+[Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features various content sections and a Google Maps section with a custom map marker.
 
-## Access
-* Source Code: [https://github.com/James-Driscoll/James-Driscoll](https://github.com/James-Driscoll/James-Driscoll)
-* Live Domain: [jamesdriscoll.london](http://jamesdriscoll.london)
-* Staging Domains {development branch}: [staging.jamesdriscoll.london/jamesdriscolllondon/development](http://staging.jamesdriscoll.london/jamesdriscolllondon/development)
-* Staging Domains {bootstrap branch}: [staging.jamesdriscoll.london/jamesdriscolllondon/bootstrap](http://staging.jamesdriscoll.london/jamesdriscolllondon/bootstrap)
+## Getting Started
 
-## Use Case
-The purpose of this single page site is to have the abilty to direct colleagues or potential employers to a digital CV that will clearly outline my skills, experience and strengths. The site is deliberately designed with all content on a single page as it simulates a classic document style CV.
+To use this template, choose one of the following options to get started:
+* Download the latest release on Start Bootstrap
+* Fork this repository on GitHub
 
-## News
-The site is currently being redeveloped using the Bootstrap framework. This will enable cleaner responsiveness and ultimately far less CSS development. The development of this project can be found under the 'bootstrap' branch.
+## Bugs and Issues
 
-## What's helped me along the way
-* HTML5 Boilerplate: [http://html5boilerplate.com](http://html5boilerplate.com)
-* Codecademy: [http://www.codecademy.com](http://www.codecademy.com)
-* W3Schools: [http://www.w3schools.com](http://www.w3schools.com)
-* StackOverflow: [http://stackoverflow.com](http://stackoverflow.com)
-* Google Analytics: [http://www.google.com/analytics](http://www.google.com/analytics)
-* Bootstrap: [http://getbootstrap.com/](http://getbootstrap.com/)
-* Font Awesome: [http://fortawesome.github.io/Font-Awesome/](http://fortawesome.github.io/Font-Awesome/)
-* Github: [https://github.com/](https://github.com/)
+Have a bug or an issue with this template? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-grayscale/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/grayscale/).
 
-## Improvements & Next Steps
-* The next stage in the development of this project would be to migrate this single page site into a custom theme of a content management system, for example; Wordpress or Drupal. This would then allow me to create a dynamic navigation menu with managed pages. The benefits of this development would be to seemlessly add/remove/modify the content.
-* To add a sticky navigation menu that scrolls the page up and down to the different sections.
-* To create and add a custom favicon to the site.
-* To complete the migration to the Bootstrap framework.
-* To make greater use of available font vector icons.
+## Creator
+
+Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
+
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
+
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-grayscale/blob/gh-pages/LICENSE) license.
