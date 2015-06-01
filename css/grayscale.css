@@ -294,6 +294,73 @@ a:focus {
     background-size: cover;
     -o-background-size: cover;
 }
+.skill-list {
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 0px;
+    width: 100%;
+}
+.skill-list .whole-bar {
+    height: 37px;
+    width: 100%;
+    background-color: #DBDEE3;
+    margin-bottom: 37px;
+}
+.skill-list .bar {
+    height: 37px;
+    float: left;
+    font-family: "Lato" "Trebuchet MS" "Arial";
+    font-size: 14px;
+    color: #FFF;
+    font-weight: normal;
+    margin: 0px;
+    line-height: 38px;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+.skill-list .grey {
+    background-color: #637076;
+    height: 37px;
+    width: 324px;
+}
+.skill-list .colour {
+    background-color: #97dbed;
+    color: #637076;
+    height: 37px;
+    width: 324px;
+}
+
+/* --Skill Box Percentages------------- */
+.skill-list .skill-pm {
+    width: 70%
+}
+.skill-list .skill-html {
+    width: 60%;
+}
+.skill-list .skill-css {
+    width: 55%;
+}
+.skill-list .skill-require {
+    width: 65%;
+}
+.skill-list .skill-sql {
+    width: 50%;
+}
+.skill-list .skill-php {
+    width: 35%;
+}
+.skill-list .skill-net {
+    width: 50%;
+}
+.skill-list .skill-email {
+    width: 60%;
+}
+.skill-list .skill-oo {
+    width: 55%;
+}
+.skill-list .skill-office {
+    width: 65%;
+}
 
 /* ==========================================================================
    Education Section
