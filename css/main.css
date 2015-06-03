@@ -93,7 +93,7 @@ a:hover, a:focus {
 .key-section {
     width: 100%;
     height: 100%;
-    min-height: 1000px;
+    min-height: 1200px;
     padding-top: 6%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -332,8 +332,7 @@ ul.banner-social-buttons {
 /* ==========================================================================
    Overview Section
    ========================================================================== */
-.overview-section {}
-img.portrait {
+.portrait {
     border-radius: 100%;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
@@ -341,33 +340,116 @@ img.portrait {
 }
 .job-title {
     font-size: 17px;
+    margin-top: 30px;
 }
 .description {
     font-size: 14px;
+    margin-bottom: 20px;
 }
+
+/* --Sections------------------------------------ */
 .sections {
     list-style: none;
+    padding-left: 0;
 }
 .sections li{
     display: inline-block;
 }
 .section-box {
     display: inline-block;
+    position: relative;
     height: 150px;
     width: 150px;
     margin: 10px;
-    border: 1px solid #FFF;
 }
 .section-box:hover {
-    /*-webkit-box-shadow: 0px 0px 29px 10px rgba(151,219,237,1);
-    -moz-box-shadow: 0px 0px 29px 10px rgba(151,219,237,1);
-    box-shadow: 0px 0px 30px 5px rgba(151,219,237,1);*/
+    -webkit-box-shadow: 0px 0px 40px 9px rgba(151,219,237,1);
+    -moz-box-shadow: 0px 0px 40px 9px rgba(151,219,237,1);
+    box-shadow: 0px 0px 9px 5px rgba(151,219,237,1);
+    border-radius: 10px;
+}
+.section-box .glyphicon, .section-box .fa {
+    position: absolute;
+    font-size: 80px;
+}
+.section-box .section-label {
+    position: absolute;
+    bottom: 10px;
+    font-size: 16px;
+    width: 100%;
+}
 
--webkit-box-shadow: 0px 0px 40px 9px rgba(151,219,237,1);
--moz-box-shadow: 0px 0px 40px 9px rgba(151,219,237,1);
-box-shadow: 0px 0px 9px 5px rgba(151,219,237,1);
-transform: scale(1.1);
+/* --Section Icon Positions---------------------- */
+.ic-skills {
+    left: 27px;
+    top: 26px;
+}
+.ic-education {
+    left: 33px;
+    top: 15px;
+}
+.ic-workexperience {
+    left: 35px;
+    top: 19px;
+}
+.ic-freelance {
+    left: 32px;
+    top: 16px;
+}
+.ic-achievements {
+    left: 34px;
+    top: 23px;
+}
+.ic-interests {
+    left: 24px;
+    top: 25px;
+}
+.overview-contact {
+    margin-top: 40px;
+}
+.overview-contact p {
+    margin-bottom: 10px;
+}
 
+/* --Responsive Sections------------------------- */
+@media (max-width: 500px) {
+    .section-box {
+        height: 100px;
+        width: 120px;
+        margin: 0px;
+    }
+    .section-box .glyphicon, .section-box .fa {
+        font-size: 30px;
+    }
+    .ic-skills {
+        left: 43px;
+        top: 26px;
+    }
+    .ic-education {
+        left: 47px;
+        top: 31px;
+    }
+    .ic-workexperience {
+        left: 45px;
+        top: 10px;
+    }
+    .ic-freelance {
+        left: 45px;
+        top: 35px;
+    }
+    .ic-achievements {
+        left: 48px;
+        top: 31px;
+    }
+    .ic-interests {
+        left: 42px;
+        top: 33px;
+    }
+}
+@media (max-width: 300px) {
+    .overview-section {
+        height: 1500px;
+    }
 }
 
 /* ==========================================================================
@@ -397,7 +479,7 @@ transform: scale(1.1);
     margin: 0px;
     line-height: 38px;
     padding-left: 10px;
-    text-transform: uppercase;
+    text-transform: up77777 percase;
 }
 .skill-list .grey {
     background-color: #637076;
