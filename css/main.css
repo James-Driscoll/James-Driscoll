@@ -222,6 +222,14 @@ ul.banner-social-buttons {
     }
 }
 
+.panel {
+    background: none;
+}
+.list-group-item {
+    background: none;
+    color: #3d3d3e;
+}
+
 /* ==========================================================================
    Navbar Items
    ========================================================================== */
@@ -503,7 +511,7 @@ ul.banner-social-buttons {
 .skill-list .skill-css {
     width: 55%;
 }
-.skill-list .skill-require {
+.skill-list .skill-sol {
     width: 65%;
 }
 .skill-list .skill-sql {
@@ -528,8 +536,13 @@ ul.banner-social-buttons {
 /* ==========================================================================
    Education Section
    ========================================================================== */
-.education-section {}
-
+.education-section {
+    height: 2400px;
+}
+.cd-timeline-img .glyphicon {
+    font-size: 30px;
+    margin-top: 13px;
+}
 /* ==========================================================================
    Work Experience Section
    ========================================================================== */
