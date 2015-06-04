@@ -490,7 +490,7 @@ ul.banner-social-buttons {
     margin: 0px;
     line-height: 38px;
     padding-left: 10px;
-    text-transform: up77777 percase;
+    text-transform: uppercase;
 }
 .skill-list .grey {
     background-color: #637076;
@@ -570,10 +570,44 @@ ul.banner-social-buttons {
 .cd-date {
     text-align: left;
 }
+.tl-title {
+    text-transform: none;
+}
 /* ==========================================================================
    Work Experience Section
    ========================================================================== */
-.workexperience-section {}
+.workexperience-section {
+    min-height: 2300px;
+}
+@media(max-width: 700px) {
+    .workexperience-section {
+        min-height: 3000px;
+    }
+}
+@media(max-width: 500px) {
+    .workexperience-section {
+        min-height: 3500px;
+    }
+}
+.workexperience-section .pm, .workexperience-section .tpm {
+    margin-top: 80px;
+}
+.workexperience-section .description {
+    clear: both;
+}
+.workexperience-section .role {
+    float: left;
+}
+.workexperience-section .date {
+    float: right;
+}
+.workexperience-section .desc-list {
+    list-style: disc;
+    padding-left: 40px;
+}
+.workexperience-section h4 {
+    margin-bottom: 0;
+}
 
 /* ==========================================================================
    Freelance Section

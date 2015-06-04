@@ -255,12 +255,12 @@ Main components
 .cd-timeline-content .cd-read-more {
   float: right;
   padding: .8em 1em;
-  background: #acb7c0;
+  background: #97dbed;
   color: white;
   border-radius: 0.25em;
 }
 .no-touch .cd-timeline-content .cd-read-more:hover {
-  background-color: #bac4cb;
+  background-color: #43a6e9;;
 }
 .cd-timeline-content .cd-date {
   float: left;
