@@ -539,9 +539,33 @@ ul.banner-social-buttons {
 .education-section {
     height: 2400px;
 }
+@media(max-width: 350px) {
+    .education-section {
+        height: 3300px;
+    }
+}
 .cd-timeline-img .glyphicon {
     font-size: 30px;
     margin-top: 13px;
+}
+@media(max-width: 1169px) {
+    .cd-timeline-img .glyphicon {
+        font-size: 21px;
+        margin-top: 9px;
+    }
+    .cd-timeline-content .cd-date {
+        color: #3d3d3e;
+        opacity: 1;
+        font-size: 14px;
+    }
+}
+@media(max-width: 600px) {
+    .list-group-item {
+        font-size: 12px;
+    }
+}
+.cd-date {
+    text-align: left;
 }
 /* ==========================================================================
    Work Experience Section
