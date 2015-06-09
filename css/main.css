@@ -297,6 +297,21 @@ ul.banner-social-buttons {
     }
 }
 
+@media(max-width: 1200px) and (min-width: 768px){
+    .navbar-nav {
+        margin-top: 12px;
+    }
+    .navbar-custom .navbar-brand {
+        font-size: 14px;
+        padding: 10px;
+        width: 120px;
+    }
+    .navbar-custom .nav li a {
+        font-size: 10px;
+        padding: 7px;
+    }
+}
+
 /* ==========================================================================
    Intro Header
    ========================================================================== */
