@@ -188,7 +188,7 @@ ul.banner-social-buttons {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -205,7 +205,7 @@ ul.banner-social-buttons {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0% {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -592,16 +592,16 @@ ul.banner-social-buttons {
    Work Experience Section
    ========================================================================== */
 .workexperience-section {
-    min-height: 2300px;
+    /*min-height: 2300px;*/
 }
 @media(max-width: 700px) {
     .workexperience-section {
-        min-height: 3000px;
+        /*min-height: 3000px;*/
     }
 }
 @media(max-width: 500px) {
     .workexperience-section {
-        min-height: 3500px;
+        /*min-height: 3500px;*/
     }
 }
 .workexperience-section .pm, .workexperience-section .tpm {
@@ -633,11 +633,17 @@ ul.banner-social-buttons {
    Achievements Section
    ========================================================================== */
 .achievements-section {}
+section.achievements .fa {
+    font-size: 80px;
+}
 
 /* ==========================================================================
    Interests Section
    ========================================================================== */
 .interests-section {}
+section.interests .fa {
+    font-size: 80px;
+}
 
 /* ==========================================================================
    Footer
