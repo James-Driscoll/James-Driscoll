@@ -362,10 +362,10 @@ ul.banner-social-buttons {
    Overview Section
    ========================================================================== */
 .portrait {
-    border-radius: 100%;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
+    margin: 0 auto;
 }
 .job-title {
     font-size: 17px;
